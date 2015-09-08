@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-postcss",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Bootstrap 4 built with postcss",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "OEvgeny",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "color": "^0.10.1",
+    "gulp": "^3.9.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "postcss": "^5.0.4",
+    "postcss-conditionals": "^2.0.0",
+    "postcss-each": "^0.6.0",
+    "postcss-for": "^2.0.0",
+    "postcss-functions": "^1.0.0",
+    "postcss-import": "^7.0.0",
+    "postcss-mixins": "^1.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-sass-extend": "0.0.1",
+    "postcss-sassy-mixins": "git+https://github.com/OEvgeny/postcss-sassy-mixins.git",
+    "postcss-scss": "^0.1.2",
+    "postcss-simple-vars": "^1.0.0",
+    "reduce-css-calc": "^1.2.0",
+    "run-sequence": "^1.1.2"
+  }
+}
