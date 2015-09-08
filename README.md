@@ -5,6 +5,8 @@ This repo contains tool for building Bootstrap 4 with postcss instead of SASS.
 
 Note: it's very experimental and not tested yet. It's just a prove what it is possible (with some tricks as usual). A lot of things need to be done to use it in development.
 
+This build contains all bootstrap styles compiled with postcss to (probably) valid css. If you found a bug, let me know.
+
 # Installation
 Since bootstrap 4 is not available from npm at now, you need to clone it:
 ```
