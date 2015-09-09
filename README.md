@@ -36,3 +36,7 @@ Now this build tool uses a lot of hacks to achieve the goal. In order to make it
 - [ ] Tune postcss plugins to support some SASS features like `@if not` or `@each ... in ($key : value)`.
 - [ ] Improve variables support. I found that we need to get access to variable value from another plugin to achieve some useful features.
 - [ ] Anything else?
+
+## Small tasks
+- [ ] Set up `gh-pages` with Bootstrap documentation
+- [ ] Write some tests
