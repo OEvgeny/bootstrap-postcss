@@ -34,7 +34,7 @@ Now this build tool uses a lot of hacks to achieve the goal. In order to make it
 
 - [ ] Improve [postcss-scss](https://github.com/postcss/postcss-scss) to work properly with SCSS syntax. It will reduce `replace` calls and a lot of hacks around syntax. Also it will make possible to perform build without preprocessing.
 - [ ] Tune postcss plugins to support some SASS features like `@if not` or `@each ... in ($key : value)`.
-  - [x] Switch to ``postcss-partial-import`` 2c96e51. No need to rename files for ``@import``.
+  - [x] Switch to ``postcss-partial-import`` [2c96e51](https://github.com/OEvgeny/bootstrap-postcss/commit/2c96e517866b3101a9eae3f1a43700f819512f2b). No need to rename files for ``@import``.
 - [ ] Improve variables support. I found that we need to get access to variable value from another plugin to achieve some useful features.
 - [ ] Anything else?
 
