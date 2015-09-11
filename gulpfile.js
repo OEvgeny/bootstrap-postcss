@@ -51,7 +51,7 @@ function bootstrapPath(root, options) {
     var i = rule.params.indexOf('through')
     if (i != -1) {
       console.log('Found', rule.name, "with params:", rule.params)
-      rule.params = rule.params.replace('through ', 'to')
+      rule.params = rule.params.replace('through ', 'to ')
       console.log('   Replaced with:', rule.params)
     }
   })
@@ -89,10 +89,10 @@ gulp.task('postcss', function() {
     // Path files to build correctly with postcss. See bootstrapPath function.
     .pipe($.postcss([bootstrapPath], {syntax: scss}))
     // Rename files to get @import to work: _file.scss => file.css
-    .pipe($.rename(function(path) {
-      path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename
-      path.extname = '.css'
-    }))
+    //.pipe($.rename(function(path) {
+      //path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename
+      //path.extname = '.css'
+    //}))
     .pipe(gulp.dest('postcss/'))
 })
 
@@ -102,7 +102,7 @@ var funcs = require('./src/functions')
 // Part of postcss config to build SASS like syntax
 var config = [
     // Replace all @import with file contents
-    require('postcss-import')(),
+    require('postcss-partial-import')({extension: 'scss'}),
     // Resolve @mixin
     require('postcss-sassy-mixins')({
       //mixins: // Mixins written in JavaScript goes here
