@@ -39,7 +39,7 @@ a.label:hover {
 
 .label-default[href]:focus,
 .label-default[href]:hover {
-  background-color: #747E86;
+  background-color: #687077;
 }
 
 .label-primary {
@@ -48,7 +48,7 @@ a.label:hover {
 
 .label-primary[href]:focus,
 .label-primary[href]:hover {
-  background-color: #026AC5;
+  background-color: #025aa5;
 }
 
 .label-success {
@@ -57,7 +57,7 @@ a.label:hover {
 
 .label-success[href]:focus,
 .label-success[href]:hover {
-  background-color: #4CAE4C;
+  background-color: #449d44;
 }
 
 .label-info {
@@ -66,7 +66,7 @@ a.label:hover {
 
 .label-info[href]:focus,
 .label-info[href]:hover {
-  background-color: #41B5D8;
+  background-color: #31b0d5;
 }
 
 .label-warning {
@@ -75,7 +75,7 @@ a.label:hover {
 
 .label-warning[href]:focus,
 .label-warning[href]:hover {
-  background-color: #ED9F31;
+  background-color: #ec971f;
 }
 
 .label-danger {
@@ -84,5 +84,5 @@ a.label:hover {
 
 .label-danger[href]:focus,
 .label-danger[href]:hover {
-  background-color: #D33B36;
+  background-color: #c9302c;
 }

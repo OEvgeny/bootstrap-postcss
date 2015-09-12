@@ -23,6 +23,7 @@
   word-wrap: normal;
   font-size: .85rem;
   background-color: #fff;
+  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: .3rem;
@@ -38,7 +39,7 @@
   bottom: -11px;
   left: 50%;
   margin-left: -11px;
-  border-top-color: rgba(0, 0, 0, .2);
+  border-top-color: rgba(0, 0, 0, .25);
   border-bottom-width: 0;
 }
 
@@ -61,7 +62,7 @@
   top: 50%;
   left: -11px;
   margin-top: -11px;
-  border-right-color: rgba(0, 0, 0, .2);
+  border-right-color: rgba(0, 0, 0, .25);
   border-left-width: 0;
 }
 
@@ -85,7 +86,7 @@
   left: 50%;
   margin-left: -11px;
   border-top-width: 0;
-  border-bottom-color: rgba(0, 0, 0, .2);
+  border-bottom-color: rgba(0, 0, 0, .25);
 }
 
 .popover.bs-tether-element-attached-top .popover-arrow::after,
@@ -108,7 +109,7 @@
   right: -11px;
   margin-top: -11px;
   border-right-width: 0;
-  border-left-color: rgba(0, 0, 0, .2);
+  border-left-color: rgba(0, 0, 0, .25);
 }
 
 .popover.bs-tether-element-attached-right .popover-arrow::after,
@@ -124,8 +125,8 @@
   padding: 8px 14px;
   margin: 0;
   font-size: 1rem;
-  background-color: #F7F7F7;
-  border-bottom: 1px solid #EBEBEB;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eaeaea;
   border-radius: -.7rem -.7rem 0 0;
 }
 

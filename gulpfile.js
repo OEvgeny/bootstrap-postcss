@@ -36,7 +36,7 @@ function bootstrapPath(root, options) {
   })
 
   // Unquote function arguments for functions:
-  var funcName = ['responsive-invisibility', 'bg-variant']
+  var funcName = ['responsive-invisibility', 'bg-variant', 'text-emphasis-variant']
   var reFunc = new RegExp('(?:' + funcName.join('|') + ')')
   root.walkAtRules(function(rule) {
     if (reFunc.test(rule.params)) {
@@ -90,6 +90,8 @@ gulp.task('postcss', function() {
       var str = colonPos == str.length ? str + ';' : str.substr(0, colonPos) + ';' + str.substr(colonPos, str.length)
       return str
     }))
+    // Replace 0\0 => 0 \0 - sass doing it...
+    .pipe($.replace('0\\0', '0 \\0'))
     // Remove !default from variable definitions since it's not supported
     .pipe($.replace(' !default', ''))
     // Strip comments (or switch type - commented)
@@ -169,7 +171,7 @@ var bsConfig = [
  */
 gulp.task('bootstrap', function() {
   //Add Bootstrap related postcss plugins
-  config.push.apply(this, bsConfig)
+  config.push.apply(config, bsConfig)
   return gulp.src('src/bootstrap.css')
     .pipe($.postcss(config, {syntax: scss}))
     .pipe(gulp.dest('dist'))
@@ -187,7 +189,7 @@ var components = require('./components.json')
  * Build components separately for debug purposes
  */
 gulp.task('components', function() {
-  config.push.apply(this, bsConfig)
+  config.push.apply(config, bsConfig)
   return gulp.src('postcss/_{'+components.join(',')+'}.scss')
     // include variables and mixins to each component
     .pipe($.insert.prepend([

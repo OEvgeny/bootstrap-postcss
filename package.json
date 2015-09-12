@@ -5,7 +5,9 @@
   "description": "Bootstrap 4 built with postcss",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "test": "mocha",
+    "test-pub": "mocha ./test/components.js -R './node_modules/mocha/lib/reporters/markdown.js' > ./test/README.md"
   },
   "author": "OEvgeny",
   "license": "MIT",
@@ -24,6 +26,7 @@
     "gulp-replace": "^0.5.4",
     "gulp-sass": "git+https://github.com/OEvgeny/gulp-sass.git",
     "mocha": "^2.3.2",
+    "onecolor": "^2.5.0",
     "postcss": "^5.0.4",
     "postcss-conditionals": "^2.0.0",
     "postcss-each": "^0.6.0",

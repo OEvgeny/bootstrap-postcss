@@ -1,17 +1,18 @@
-var clr = require("color")
+var one = require("onecolor")
+var calc = require('reduce-css-calc')
 
 /*
  * Get number part of given value
  */
 function convertToNum(value) {
-  if (typeof value == "number")
-    return value
+  if ((typeof value == "number") && (value))
+    return {value: value, type: 'number'}
   switch (value[value.length - 1]) {
     case '%':
-      value = parseInt(value) / 100.0
+      value = {value: parseFloat(value) / 100.0, type: '%'}
       break;
     default:
-      value = parseInt(value)
+      value = {value: parseFloat(value), type: null}
   }
   return value
 }
@@ -52,7 +53,7 @@ function breakpointNext($name, $breakpoints, $breakpointNames) {
 
 function breakpointMax($name, $breakpoints) {
   var next = breakpointNext($name, $breakpoints)
-  return next ? breakpointMin(next, $breakpoints) : false
+  return next ? calc('calc(' + breakpointMin(next, $breakpoints) + ' - 0.1)') : false
 }
 
 function breakpointMin($name, $breakpoints) {
@@ -64,10 +65,12 @@ function breakpointMin($name, $breakpoints) {
  * Call color function and return color
  */
 function colorFunc(func, color, amount) {
-    var val = convertToNum(amount)
-    var result = clr(color)
-    result = result[func] ? result[func](val) : result
-    return result.alpha() >= 1 ? result.hexString() : result.rgbaString()
+    var val = convertToNum(amount).value
+    var result = one(color)
+    if (val) {
+      result = result[func] ? result[func](val, true) : result
+    }
+    return result.alpha() >= 1 ? result.hex().toLowerCase() : result.cssa()
 }
 
 /*
@@ -88,7 +91,7 @@ function safeEval(exp) {
 module.exports = {
   // Helper to use color in styles e.g.:
   // color(#123).lighten(0.2).alpha(1).hexString()
-  color: clr,
+  // color: clr,
   // Inline if Implementation. Need to be reworked.
   'if': function(exp, trueVal, falseVal) {
     var res = safeEval(exp)
@@ -96,26 +99,32 @@ module.exports = {
   },
   // SASS functions
   'percentage': function(exp) {
-    return (Number(safeEval(exp)) * 100).toFixed(3) + '%'
+    return (Number(safeEval(exp)) * 100).toFixed(5) + '%'
   },
   lighten: function(color, amount) {
-    return colorFunc('lighten', color, amount)
+    return colorFunc('lightness', color, amount)
   },
   darken: function(color, amount) {
-    return colorFunc('darken', color, amount)
+    return colorFunc('lightness', color, '-' + amount)
   },
   'fade-in': function(color, amount) {
-    var val = convertToNum(amount)
-    var result = clr(color)
+    var val = convertToNum(amount).value
+    var result = one(color)
     result = result.alpha(result.alpha() + val)
-    return result.alpha() >= 1 ? result.hexString() : result.rgbaString()
+    return result.alpha() >= 1 ? result.hex().toLowerCase() : result.cssa()
   },
   "map-keys": function(map) {
     var ret = Object.keys(mapToHash(map)).join(', ')
     return ret
   },
+  // Hack to replace rgba with alpha 1 with hex color
+  rgba: function() {
+    var str = 'rgba(' + Array.prototype.join.call(arguments, [',']) + ')'
+    var color = one(str)
+    return color.alpha() >= 1 ? color.hex().toLowerCase() : str
+  },
   "ie-hex-str": function(color) {
-    var c = clr(color)
+    var c = one(color)
     function hexColor() {
       var res = ''
       for (var i = 0; i < arguments.length; i++ ) {

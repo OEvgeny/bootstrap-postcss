@@ -40,7 +40,7 @@
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-  color: #0265BB;
+  color: #014c8c;
   background-color: #eceeef;
   border-color: #ddd;
 }

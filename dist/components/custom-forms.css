@@ -3,13 +3,6 @@
   cursor: pointer;
 }
 
-.c-indicator,
-.file-custom {
-  top: 0;
-  left: 0;
-  user-select: none;
-}
-
 .c-input {
   position: relative;
   display: inline;
@@ -29,6 +22,7 @@
 }
 
 .c-input > input:focus ~ .c-indicator {
+  -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9;
   box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9;
 }
 
@@ -43,6 +37,8 @@
 
 .c-indicator {
   position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   width: 1rem;
   height: 1rem;
@@ -50,9 +46,14 @@
   line-height: 1rem;
   color: #eee;
   text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-color: #eee;
   background-repeat: no-repeat;
   background-position: center center;
+  -webkit-background-size: 50% 50%;
   background-size: 50% 50%;
 }
 
@@ -103,6 +104,7 @@
   vertical-align: middle;
   background: url(data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) right .75rem center no-repeat #fff;
   background-image: none\9;
+  -webkit-background-size: 8px 10px;
   background-size: 8px 10px;
   border: 1px solid #ccc;
   -moz-appearance: none;
@@ -151,8 +153,14 @@
 }
 
 .file-custom {
+  top: 0;
   right: 0;
+  left: 0;
   z-index: 5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-color: #fff;
   border: .075rem solid #ddd;
   border-radius: .25rem;

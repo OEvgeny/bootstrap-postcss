@@ -4,7 +4,7 @@
   display: none !important;
 }
 
-@media (max-width: 34em) {
+@media (max-width: 33.9em) {
   .hidden-xs-down {
     display: none !important;
   }
@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 48em) {
+@media (max-width: 47.9em) {
   .hidden-sm-down {
     display: none !important;
   }
@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 62em) {
+@media (max-width: 61.9em) {
   .hidden-md-down {
     display: none !important;
   }
@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 75em) {
+@media (max-width: 74.9em) {
   .hidden-lg-down {
     display: none !important;
   }

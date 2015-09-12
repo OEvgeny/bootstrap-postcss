@@ -35,56 +35,56 @@
 
 .alert-success {
   background-color: #dff0d8;
-  border-color: #D1EAC8;
+  border-color: #d0e9c6;
   color: #3c763d;
 }
 
 .alert-success hr {
-  border-top-color: #C4E4B9;
+  border-top-color: #c1e2b4;
 }
 
 .alert-success .alert-link {
-  color: #376D38;
+  color: #2b542c;
 }
 
 .alert-info {
   background-color: #d9edf7;
-  border-color: #C0E1F2;
+  border-color: #bcdff1;
   color: #31708f;
 }
 
 .alert-info hr {
-  border-top-color: #AFD9EF;
+  border-top-color: #a7d5ed;
 }
 
 .alert-info .alert-link {
-  color: #2C6581;
+  color: #245269;
 }
 
 .alert-warning {
   background-color: #fcf8e3;
-  border-color: #FAF2CC;
+  border-color: #faf2cc;
   color: #8a6d3b;
 }
 
 .alert-warning hr {
-  border-top-color: #F8EEB9;
+  border-top-color: #f8ecb5;
 }
 
 .alert-warning .alert-link {
-  color: #7D6336;
+  color: #66512c;
 }
 
 .alert-danger {
   background-color: #f2dede;
-  border-color: #EBCCCC;
+  border-color: #ebcccc;
   color: #a94442;
 }
 
 .alert-danger hr {
-  border-top-color: #E5BDBD;
+  border-top-color: #e4baba;
 }
 
 .alert-danger .alert-link {
-  color: #973C3B;
+  color: #843534;
 }

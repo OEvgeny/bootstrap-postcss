@@ -1,3 +1,23 @@
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
 @keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -18,6 +38,8 @@
 .progress[value] {
   color: #0074d9;
   border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 }
 
@@ -41,7 +63,7 @@
   border-bottom-right-radius: .25rem;
 }
 
-@media screen and (min-width: 0\0) {
+@media screen and (min-width: 0 \0) {
   .progress {
     background-color: #eee;
     border-radius: .25rem;
@@ -67,15 +89,12 @@
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
   }
-
-  .progress-bar-striped {
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-size: 1rem 1rem;
-  }
 }
 
 .progress-striped[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 1rem 1rem;
   background-size: 1rem 1rem;
 }
 
@@ -85,6 +104,7 @@
 }
 
 .progress-animated[value]::-webkit-progress-value {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
 }
 
@@ -100,8 +120,18 @@
   background-color: #5cb85c;
 }
 
-@media screen and (min-width: 0\0) {
+@media screen and (min-width: 0 \0) {
+  .progress-bar-striped {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 1rem 1rem;
+    background-size: 1rem 1rem;
+  }
+
   .progress-animated .progress-bar-striped {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
     animation: progress-bar-stripes 2s linear infinite;
   }
 
@@ -130,7 +160,7 @@
   background-color: #f0ad4e;
 }
 
-@media screen and (min-width: 0\0) {
+@media screen and (min-width: 0 \0) {
   .progress-warning .progress-bar {
     background-color: #f0ad4e;
   }

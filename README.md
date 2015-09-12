@@ -40,4 +40,5 @@ Now this build tool uses a lot of hacks to achieve the goal. In order to make it
 
 ## Small tasks
 - [ ] Set up `gh-pages` with Bootstrap documentation
-- [ ] Write some tests
+- [x] Write some tests. See [test](https://github.com/OEvgeny/bootstrap-postcss/tree/master/test) folder for results.
+- [ ] Tune markdown reporter to output pretty results.

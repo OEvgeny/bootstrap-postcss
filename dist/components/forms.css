@@ -26,6 +26,21 @@
   outline: 0;
 }
 
+.form-control::-webkit-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
 .form-control::placeholder {
   color: #999;
   opacity: 1;
@@ -188,6 +203,7 @@ input[type=checkbox]:disabled {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
   background-position: center right .59375rem;
+  -webkit-background-size: 1.54375rem 1.54375rem;
   background-size: 1.54375rem 1.54375rem;
 }
 
@@ -198,7 +214,7 @@ input[type=checkbox]:disabled {
 .has-success .input-group-addon {
   color: #5cb85c;
   border-color: #5cb85c;
-  background-color: #AADAAA;
+  background-color: #eaf6ea;
 }
 
 .has-warning .checkbox,
@@ -226,7 +242,7 @@ input[type=checkbox]:disabled {
 .has-warning .input-group-addon {
   color: #f0ad4e;
   border-color: #f0ad4e;
-  background-color: #FAE2C2;
+  background-color: #fff;
 }
 
 .has-error .checkbox,
@@ -254,7 +270,7 @@ input[type=checkbox]:disabled {
 .has-error .input-group-addon {
   color: #d9534f;
   border-color: #d9534f;
-  background-color: #EEB2B0;
+  background-color: #fdf7f7;
 }
 
 .has-error .form-control-error {

@@ -26,6 +26,7 @@ output {
 }
 
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 1pc;
   -webkit-tap-highlight-color: transparent;
@@ -34,13 +35,11 @@ html {
 *,
 ::after,
 ::before {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 
 @-ms-viewport  {width:device-width;
-}
-
-@-o-viewport  {width:device-width;
 }
 
 @viewport  {width:device-width;
@@ -110,7 +109,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #0265BB;
+  color: #014c8c;
   text-decoration: underline;
 }
 
@@ -166,6 +165,7 @@ legend {
 }
 
 input[type=search] {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit;
   -webkit-appearance: none;
 }

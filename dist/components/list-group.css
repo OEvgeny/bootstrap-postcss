@@ -93,7 +93,7 @@ button.list-group-item:hover {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text {
-  color: #35A0FD;
+  color: #a8d6fe;
 }
 
 .list-group-item-success {
@@ -116,7 +116,7 @@ a.list-group-item-success:hover,
 button.list-group-item-success:focus,
 button.list-group-item-success:hover {
   color: #3c763d;
-  background-color: #D1EAC8;
+  background-color: #d0e9c6;
 }
 
 a.list-group-item-success.active,
@@ -150,7 +150,7 @@ a.list-group-item-info:hover,
 button.list-group-item-info:focus,
 button.list-group-item-info:hover {
   color: #31708f;
-  background-color: #C4E3F3;
+  background-color: #c4e3f3;
 }
 
 a.list-group-item-info.active,
@@ -184,7 +184,7 @@ a.list-group-item-warning:hover,
 button.list-group-item-warning:focus,
 button.list-group-item-warning:hover {
   color: #8a6d3b;
-  background-color: #FAF2CC;
+  background-color: #faf2cc;
 }
 
 a.list-group-item-warning.active,
@@ -218,7 +218,7 @@ a.list-group-item-danger:hover,
 button.list-group-item-danger:focus,
 button.list-group-item-danger:hover {
   color: #a94442;
-  background-color: #EBCCCC;
+  background-color: #ebcccc;
 }
 
 a.list-group-item-danger.active,

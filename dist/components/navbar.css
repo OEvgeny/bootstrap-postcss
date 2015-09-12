@@ -43,6 +43,7 @@
 }
 
 .navbar-sticky-top {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1030;
@@ -161,7 +162,7 @@
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:focus,
 .navbar-dark .navbar-brand:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -185,7 +186,7 @@
 .navbar-dark .navbar-nav .open > .nav-link,
 .navbar-dark .navbar-nav .open > .nav-link:focus,
 .navbar-dark .navbar-nav .open > .nav-link:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 .navbar-dark .navbar-divider {
