@@ -1,5 +1,5 @@
 
-> bootstrap-postcss@0.0.1 mocha /app
+> bootstrap-postcss@0.0.1 test /app
 > mocha "./test/components.js" "./node_modules/mocha/lib/reporters/markdown.js"
 
 
@@ -9,9 +9,9 @@
     ✓ component: animation
     ✓ component: breadcrumb
     2) component: button-group
-    ✓ component: buttons
+    ✓ component: buttons (41ms)
     ✓ component: card
-    ✓ component: carousel (42ms)
+    ✓ component: carousel (44ms)
     ✓ component: close
     ✓ component: code
     ✓ component: custom-forms
@@ -39,11 +39,11 @@
     ✓ component: tooltip
     ✓ component: type
     ✓ component: utilities-responsive
-    ✓ component: utilities-spacing
+    ✓ component: utilities-spacing (147ms)
     ✓ component: utilities
 
 
-  30 passing (522ms)
+  30 passing (661ms)
   6 failing
 
   1) Bootstrap v4 PostCSS component: alert:

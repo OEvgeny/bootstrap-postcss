@@ -7,7 +7,7 @@
   "scripts": {
     "start": "gulp",
     "test": "mocha",
-    "test-pub": "mocha ./test/components.js -R './node_modules/mocha/lib/reporters/markdown.js' > ./test/README.md"
+    "test-pub": "npm run test ./test/components.js -R './node_modules/mocha/lib/reporters/markdown.js' > ./test/README.md"
   },
   "author": "OEvgeny",
   "license": "MIT",
