@@ -1,0 +1,703 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "prop": "display",
+          "important": true,
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "selector": ".hidden-xl-down,\n.hidden-xs-up,\n.visible-print-block"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(max-width: 33.9em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-xs-down"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(min-width: 34em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-sm-up"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(max-width: 47.9em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-sm-down"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(min-width: 48em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-md-up"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(max-width: 61.9em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-md-down"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(min-width: 62em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-lg-up"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(max-width: 74.9em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-lg-down"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "(min-width: 75em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-xl-up"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "print",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "block"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".visible-print-block"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "prop": "display",
+          "important": true,
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "selector": ".visible-print-inline"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "print",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "inline"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".visible-print-inline"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "prop": "display",
+          "important": true,
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "selector": ".visible-print-inline-block"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "utilities-responsive.css"
+        }
+      },
+      "params": "print",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "inline-block"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".visible-print-inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities-responsive.css"
+                }
+              },
+              "prop": "display",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities-responsive.css"
+            }
+          },
+          "selector": ".hidden-print"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "utilities-responsive.css"
+    }
+  }
+}

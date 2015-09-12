@@ -1,0 +1,2316 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel,\n.carousel-inner"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "center"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "text-shadow",
+          "value": "0 1px 2px rgba(0, 0, 0, .6)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-caption,\n.carousel-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "overflow",
+          "value": "hidden"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "display",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "-webkit-transition",
+          "value": ".6s ease-in-out left"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "-o-transition",
+          "value": ".6s ease-in-out left"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "transition",
+          "value": ".6s ease-in-out left"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .carousel-item"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .carousel-item > a > img,\n.carousel-inner > .carousel-item > img"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "params": "all and (transform-3d), (-webkit-transform-3d)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-webkit-transition",
+              "value": "-webkit-transform .6s ease-in-out"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-o-transition",
+              "value": "-o-transform .6s ease-in-out"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "transition",
+              "value": "transform .6s ease-in-out"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-webkit-backface-visibility",
+              "value": "hidden"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "backface-visibility",
+              "value": "hidden"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-webkit-perspective",
+              "value": "750pt"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "perspective",
+              "value": "750pt"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-inner > .carousel-item"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "left",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-webkit-transform",
+              "value": "translate3d(100%, 0, 0)"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "transform",
+              "value": "translate3d(100%, 0, 0)"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-inner > .carousel-item.active.right,\n  .carousel-inner > .carousel-item.next"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "left",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-webkit-transform",
+              "value": "translate3d(-100%, 0, 0)"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "transform",
+              "value": "translate3d(-100%, 0, 0)"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-inner > .carousel-item.active.left,\n  .carousel-inner > .carousel-item.prev"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "left",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "-webkit-transform",
+              "value": "translate3d(0, 0, 0)"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "transform",
+              "value": "translate3d(0, 0, 0)"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-inner > .carousel-item.active,\n  .carousel-inner > .carousel-item.next.left,\n  .carousel-inner > .carousel-item.prev.right"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .active,\n.carousel-inner > .next,\n.carousel-inner > .prev"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .active"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .next,\n.carousel-inner > .prev"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .next"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "-100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .prev"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .next.left,\n.carousel-inner > .prev.right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "-100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .active.left"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-inner > .active.right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "15%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "20px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "opacity",
+          "value": ".5"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)))"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-repeat",
+          "value": "repeat-x"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "filter",
+          "value": "progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control.left"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)))"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-repeat",
+          "value": "repeat-x"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "filter",
+          "value": "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control.right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "opacity",
+          "value": ".9"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control:focus,\n.carousel-control:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "top",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "20px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "height",
+          "value": "20px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "-10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "font-family",
+          "value": "serif"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control .icon-next,\n.carousel-control .icon-prev"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control .icon-prev"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "right",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "margin-right",
+          "value": "-10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control .icon-next"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\\2039\""
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control .icon-prev::before"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\\203a\""
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-control .icon-next::before"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "15"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "60%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-30%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "center"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "list-style",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-indicators"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "height",
+          "value": "10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "margin",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "text-indent",
+          "value": "-999px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-indicators li"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "width",
+          "value": "9pt"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "height",
+          "value": "9pt"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "margin",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-indicators .active"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "right",
+          "value": "15%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "20px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "left",
+          "value": "15%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "10"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "padding-top",
+          "value": "20px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "value": "20px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-caption"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "prop": "text-shadow",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "selector": ".carousel-caption .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "carousel.css"
+        }
+      },
+      "params": "(min-width: 34em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "width",
+              "value": "30px"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "height",
+              "value": "30px"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "margin-top",
+              "value": "-15px"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "font-size",
+              "value": "30px"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-control .icon-next,\n  .carousel-control .icon-prev"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "margin-left",
+              "value": "-15px"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-control .icon-prev"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "margin-right",
+              "value": "-15px"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-control .icon-next"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "right",
+              "value": "20%"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "left",
+              "value": "20%"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "padding-bottom",
+              "value": "30px"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-caption"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "bottom",
+              "value": "20px"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "carousel.css"
+            }
+          },
+          "selector": ".carousel-indicators"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "carousel.css"
+    }
+  }
+}

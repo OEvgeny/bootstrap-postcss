@@ -1,0 +1,295 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "max-width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "height",
+          "value": "auto"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".img-fluid,\n.img-thumbnail"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".img-fluid"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".img-rounded"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #ddd"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "-webkit-transition",
+          "value": "all .2s ease-in-out"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "-o-transition",
+          "value": "all .2s ease-in-out"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "transition",
+          "value": "all .2s ease-in-out"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".img-thumbnail"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "50%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".img-circle"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "images.css"
+    }
+  }
+}

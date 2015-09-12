@@ -1,0 +1,2358 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control,\n.form-control-file,\n.form-control-range"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".375rem .75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#55595c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border",
+          "value": ".0625rem solid #ccc"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control::-ms-expand"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#66afe9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control:focus"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#999"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control::-webkit-input-placeholder"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#999"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control::-moz-placeholder"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#999"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control:-ms-input-placeholder"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#999"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control::placeholder"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#5cb85c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-success .checkbox,\n.has-success .checkbox-inline,\n.has-success .form-control-feedback,\n.has-success .form-control-label,\n.has-success .help-block,\n.has-success .radio,\n.has-success .radio-inline,\n.has-success.checkbox label,\n.has-success.checkbox-inline label,\n.has-success.radio label,\n.has-success.radio-inline label"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eceeef"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control:disabled,\n.form-control[readonly]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "not-allowed"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control:disabled"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".4375rem .75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control-label"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "params": "screen and (-webkit-min-device-pixel-ratio: 0)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "line-height",
+              "value": "2.375rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": "input[type=date].form-control,\n  input[type=time].form-control,\n  input[type=datetime-local].form-control,\n  input[type=month].form-control"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "line-height",
+              "value": "1.95rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".input-group-sm input[type=date].form-control,\n  .input-group-sm input[type=time].form-control,\n  .input-group-sm input[type=datetime-local].form-control,\n  .input-group-sm input[type=month].form-control,\n  input[type=date].input-sm,\n  input[type=time].input-sm,\n  input[type=datetime-local].input-sm,\n  input[type=month].input-sm"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "line-height",
+              "value": "3.29167rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".input-group-lg input[type=date].form-control,\n  .input-group-lg input[type=time].form-control,\n  .input-group-lg input[type=datetime-local].form-control,\n  .input-group-lg input[type=month].form-control,\n  input[type=date].input-lg,\n  input[type=time].input-lg,\n  input[type=datetime-local].input-lg,\n  input[type=month].input-lg"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "min-height",
+          "value": "2.375rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding-top",
+          "value": ".4375rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "value": ".4375rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control-static"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control-static.form-control-lg,\n.form-control-static.form-control-sm"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".275rem .75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "font-size",
+          "value": ".85rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".2rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control-sm"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".75rem 1.25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.33333"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": ".75rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox,\n.radio"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "1.25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "400"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox label,\n.checkbox-inline,\n.radio label,\n.radio-inline"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "static"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox label input:only-child,\n.radio label input:only-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-1.25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox input[type=checkbox],\n.checkbox-inline input[type=checkbox],\n.radio input[type=radio],\n.radio-inline input[type=radio]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "-.25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox + .checkbox,\n.radio + .radio"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox-inline,\n.radio-inline"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": ".75rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox-inline + .checkbox-inline,\n.radio-inline + .radio-inline"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "not-allowed"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".checkbox-inline.disabled,\n.checkbox.disabled label,\n.radio-inline.disabled,\n.radio.disabled label,\ninput[type=radio].disabled,\ninput[type=radio]:disabled,\ninput[type=checkbox].disabled,\ninput[type=checkbox]:disabled"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": "2.25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-repeat",
+          "value": "no-repeat"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-position",
+          "value": "center right .59375rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "-webkit-background-size",
+          "value": "1.54375rem 1.54375rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-size",
+          "value": "1.54375rem 1.54375rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".form-control-error,\n.form-control-success,\n.form-control-warning"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#5cb85c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-success .form-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#5cb85c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#5cb85c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eaf6ea"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-success .input-group-addon"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#f0ad4e"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-warning .checkbox,\n.has-warning .checkbox-inline,\n.has-warning .form-control-feedback,\n.has-warning .form-control-label,\n.has-warning .help-block,\n.has-warning .radio,\n.has-warning .radio-inline,\n.has-warning.checkbox label,\n.has-warning.checkbox-inline label,\n.has-warning.radio label,\n.has-warning.radio-inline label"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNoZWNrIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM1Q0I4NUMiIGQ9Ik0yMzMuOCw2MTAuMWMtMTMuMywwLTI1LjktNi4yLTM0LTE2LjlMOTAuNSw0NDguOEM3Ni4zLDQzMCw4MCw0MDMuMyw5OC44LDM4OS4xYzE4LjgtMTQuMyw0NS41LTEwLjUsNTkuOCw4LjNsNzEuOSw5NWwyMjAuOS0yNTAuNWMxMi41LTIwLDM4LjgtMjYuMSw1OC44LTEzLjZjMjAsMTIuNCwyNi4xLDM4LjcsMTMuNiw1OC44TDI3MCw1OTBjLTcuNCwxMi0yMC4yLDE5LjQtMzQuMywyMC4xQzIzNS4xLDYxMC4xLDIzNC41LDYxMC4xLDIzMy44LDYxMC4xeiIvPjwvc3ZnPg==)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-success .form-control-success"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#f0ad4e"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-warning .form-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#f0ad4e"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#f0ad4e"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-warning .input-group-addon"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#d9534f"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-error .checkbox,\n.has-error .checkbox-inline,\n.has-error .form-control-feedback,\n.has-error .form-control-label,\n.has-error .help-block,\n.has-error .radio,\n.has-error .radio-inline,\n.has-error.checkbox label,\n.has-error.checkbox-inline label,\n.has-error.radio label,\n.has-error.radio-inline label"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9Ildhcm5pbmciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjEyIDc5MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjEyIDc5MiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iI0YwQUQ0RSIgZD0iTTYwMyw2NDAuMmwtMjc4LjUtNTA5Yy0zLjgtNi42LTEwLjgtMTAuNi0xOC41LTEwLjZzLTE0LjcsNC4xLTE4LjUsMTAuNkw5LDY0MC4yYy0zLjcsNi41LTMuNiwxNC40LDAuMiwyMC44YzMuOCw2LjUsMTAuOCwxMC40LDE4LjMsMTAuNGg1NTcuMWM3LjUsMCwxNC41LTMuOSwxOC4zLTEwLjRDNjA2LjYsNjU0LjYsNjA2LjcsNjQ2LjYsNjAzLDY0MC4yeiBNMzM2LjYsNjEwLjJoLTYxLjJWNTQ5aDYxLjJWNjEwLjJ6IE0zMzYuNiw1MDMuMWgtNjEuMlYzMDQuMmg2MS4yVjUwMy4xeiIvPjwvc3ZnPg==)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-warning .form-control-warning"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#d9534f"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-error .form-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#d9534f"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#d9534f"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fdf7f7"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-error .input-group-addon"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNyb3NzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNEOTUzNEYiIGQ9Ik00NDcsNTQ0LjRjLTE0LjQsMTQuNC0zNy42LDE0LjQtNTEuOSwwTDMwNiw0NTEuN2wtODkuMSw5Mi43Yy0xNC40LDE0LjQtMzcuNiwxNC40LTUxLjksMGMtMTQuNC0xNC40LTE0LjQtMzcuNiwwLTUxLjlsOTIuNC05Ni40TDE2NSwyOTkuNmMtMTQuNC0xNC40LTE0LjQtMzcuNiwwLTUxLjlzMzcuNi0xNC40LDUxLjksMGw4OS4yLDkyLjdsODkuMS05Mi43YzE0LjQtMTQuNCwzNy42LTE0LjQsNTEuOSwwYzE0LjQsMTQuNCwxNC40LDM3LjYsMCw1MS45TDM1NC43LDM5Nmw5Mi40LDk2LjRDNDYxLjQsNTA2LjgsNDYxLjQsNTMwLDQ0Nyw1NDQuNHoiLz48L3N2Zz4=)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "selector": ".has-error .form-control-error"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "forms.css"
+        }
+      },
+      "params": "(min-width: 34em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "display",
+              "value": "inline-block"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .form-control-static,\n  .form-inline .form-group"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "margin-bottom",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "vertical-align",
+              "value": "middle"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .form-control-label,\n  .form-inline .form-group"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "display",
+              "value": "inline-block"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "width",
+              "value": "auto"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "vertical-align",
+              "value": "middle"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .form-control"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "display",
+              "value": "inline-table"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "vertical-align",
+              "value": "middle"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .input-group"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "width",
+              "value": "auto"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .input-group .form-control,\n  .form-inline .input-group .input-group-addon,\n  .form-inline .input-group .input-group-btn"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "width",
+              "value": "100%"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .input-group > .form-control"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "display",
+              "value": "inline-block"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "margin-top",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "margin-bottom",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "vertical-align",
+              "value": "middle"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .checkbox,\n  .form-inline .radio"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "padding-left",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .checkbox label,\n  .form-inline .radio label"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "position",
+              "value": "relative"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "margin-left",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .checkbox input[type=checkbox],\n  .form-inline .radio input[type=radio]"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "forms.css"
+                }
+              },
+              "prop": "top",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "forms.css"
+            }
+          },
+          "selector": ".form-inline .has-feedback .form-control-feedback"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "forms.css"
+    }
+  }
+}

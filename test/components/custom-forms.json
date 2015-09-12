@@ -1,0 +1,1848 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input,\n.file"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "1.5rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#555"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "-1"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input > input"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#0074d9"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input > input:checked ~ .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-webkit-box-shadow",
+          "value": "0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "box-shadow",
+          "value": "0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input > input:focus ~ .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#84c6ff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input > input:active ~ .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-input + .c-input"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "width",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "height",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "65%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#eee"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "center"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-webkit-user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-moz-user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-ms-user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eee"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-repeat",
+          "value": "no-repeat"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-position",
+          "value": "center center"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-webkit-background-size",
+          "value": "50% 50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-size",
+          "value": "50% 50%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-checkbox .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-checkbox input:checked ~ .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#0074d9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iOHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDggOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgOCA4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wLDN2Mmg4VjNIMHoiLz4NCjwvc3ZnPg0K)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-checkbox input:indeterminate ~ .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "50%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-radio .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTQsMUMyLjMsMSwxLDIuMywxLDRzMS4zLDMsMywzczMtMS4zLDMtM1M1LjcsMSw0LDF6Ii8+DQo8L3N2Zz4NCg==)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-radio input:checked ~ .c-indicator"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-inputs-stacked .c-input"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-inputs-stacked .c-input::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-select,\n.file"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-inputs-stacked .c-input + .c-input"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "max-width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".375rem 1.75rem .375rem .75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": ".75rem\\9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background",
+          "value": "url(data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) right .75rem center no-repeat #fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "none\\9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-webkit-background-size",
+          "value": "8px 10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-size",
+          "value": "8px 10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #ccc"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-moz-appearance",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-select"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#51a7e8"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-select:focus"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-select::-ms-expand"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "padding-top",
+          "value": "3px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "value": "3px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "9pt"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-select-sm"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "height",
+          "value": "26px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "min-height",
+          "value": "26px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".c-select-sm:not([multiple])"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "height",
+          "value": "2.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".file"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "height",
+          "value": "2.5rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".5rem 1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "color",
+          "value": "#555"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".file-custom,\n.file-custom::before"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "min-width",
+          "value": "14rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "margin",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "filter",
+          "value": "alpha(opacity=0)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "opacity",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".file input"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-webkit-user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-moz-user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "-ms-user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "user-select",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border",
+          "value": ".075rem solid #ddd"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".file-custom"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"Choose file...\""
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".file-custom::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "top",
+          "value": "-.075rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "right",
+          "value": "-.075rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "-.075rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "6"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"Browse\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eee"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border",
+          "value": ".075rem solid #ddd"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "custom-forms.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0 .25rem .25rem 0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "custom-forms.css"
+        }
+      },
+      "selector": ".file-custom::before"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "custom-forms.css"
+    }
+  }
+}

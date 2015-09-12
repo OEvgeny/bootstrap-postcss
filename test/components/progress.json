@@ -1,0 +1,1630 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "-webkit-keyframes",
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "params": "progress-bar-stripes",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-position",
+              "value": "1rem 0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": "from"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-position",
+              "value": "0 0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": "to"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "-o-keyframes",
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "params": "progress-bar-stripes",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-position",
+              "value": "1rem 0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": "from"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-position",
+              "value": "0 0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": "to"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "keyframes",
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "params": "progress-bar-stripes",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-position",
+              "value": "1rem 0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": "from"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-position",
+              "value": "0 0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": "to"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "height",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "color",
+          "value": "#0074d9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "-moz-appearance",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "appearance",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress[value]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eee"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress[value]::-webkit-progress-bar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "content",
+          "value": "attr(value)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress[value]::-webkit-progress-value::before"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#0074d9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "border-top-left-radius",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "border-top-right-radius",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "border-bottom-right-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress[value=\"100\"]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "params": "screen and (min-width: 0 \\0)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "#eee"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "border-radius",
+              "value": ".25rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "display",
+              "value": "inline-block"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "height",
+              "value": "1rem"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "text-indent",
+              "value": "-999rem"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "#0074d9"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "border-top-left-radius",
+              "value": ".25rem"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "border-bottom-left-radius",
+              "value": ".25rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-bar"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "min-width",
+              "value": "2rem"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "color",
+              "value": "#818a91"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "transparent"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-image",
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress[width^=\"0\"]"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "border-top-right-radius",
+              "value": ".25rem"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "border-bottom-right-radius",
+              "value": ".25rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress[width=\"100%\"]"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "-webkit-background-size",
+          "value": "1rem 1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-size",
+          "value": "1rem 1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-striped[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-size",
+          "value": "1rem 1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-striped[value]::-moz-progress-bar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "-webkit-animation",
+          "value": "progress-bar-stripes 2s linear infinite"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "animation",
+          "value": "progress-bar-stripes 2s linear infinite"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-animated[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "animation",
+          "value": "progress-bar-stripes 2s linear infinite"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-animated[value]::-moz-progress-bar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#5cb85c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-success[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#5cb85c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-success[value]::-moz-progress-bar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "params": "screen and (min-width: 0 \\0)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-image",
+              "value": "-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-image",
+              "value": "-o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-image",
+              "value": "linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "-webkit-background-size",
+              "value": "1rem 1rem"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-size",
+              "value": "1rem 1rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-bar-striped"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "-webkit-animation",
+              "value": "progress-bar-stripes 2s linear infinite"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "-o-animation",
+              "value": "progress-bar-stripes 2s linear infinite"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "animation",
+              "value": "progress-bar-stripes 2s linear infinite"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-animated .progress-bar-striped"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "#5cb85c"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-success .progress-bar"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "#5bc0de"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-info .progress-bar"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#5bc0de"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-info[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#5bc0de"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-info[value]::-moz-progress-bar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f0ad4e"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-warning[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f0ad4e"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-warning[value]::-moz-progress-bar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "params": "screen and (min-width: 0 \\0)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "#f0ad4e"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-warning .progress-bar"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "progress.css"
+                }
+              },
+              "prop": "background-color",
+              "value": "#d9534f"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "selector": ".progress-danger .progress-bar"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#d9534f"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-danger[value]::-webkit-progress-value"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "progress.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#d9534f"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "progress.css"
+        }
+      },
+      "selector": ".progress-danger[value]::-moz-progress-bar"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "progress.css"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+.m-r-0,
+.m-x-0 {
+  margin-right: 0 !important;
+}
+
+.m-l-0,
+.m-x-0 {
+  margin-left: 0 !important;
+}
+
+.m-t-0,
+.m-y-0 {
+  margin-top: 0 !important;
+}
+
+.m-b-0,
+.m-y-0 {
+  margin-bottom: 0 !important;
+}
+
+.p-r-0,
+.p-x-0 {
+  padding-right: 0 !important;
+}
+
+.p-l-0,
+.p-x-0 {
+  padding-left: 0 !important;
+}
+
+.p-t-0,
+.p-y-0 {
+  padding-top: 0 !important;
+}
+
+.p-b-0,
+.p-y-0 {
+  padding-bottom: 0 !important;
+}
+
+.m-a-0 {
+  margin: 0 !important;
+}
+
+.m-r,
+.m-x {
+  margin-right: 1rem !important;
+}
+
+.m-l,
+.m-x {
+  margin-left: 1rem !important;
+}
+
+.m-t,
+.m-y {
+  margin-top: 1rem !important;
+}
+
+.m-b,
+.m-y {
+  margin-bottom: 1rem !important;
+}
+
+.m-a {
+  margin: 1rem !important;
+}
+
+.m-t-md,
+.m-y-md {
+  margin-top: 1.5rem !important;
+}
+
+.m-b-md,
+.m-y-md {
+  margin-bottom: 1.5rem !important;
+}
+
+.m-x-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.m-r-md,
+.m-x-md {
+  margin-right: 1.5rem !important;
+}
+
+.m-l-md,
+.m-x-md {
+  margin-left: 1.5rem !important;
+}
+
+.m-a-md {
+  margin: 1.5rem !important;
+}
+
+.m-r-lg,
+.m-x-lg {
+  margin-right: 3rem !important;
+}
+
+.m-l-lg,
+.m-x-lg {
+  margin-left: 3rem !important;
+}
+
+.m-t-lg,
+.m-y-lg {
+  margin-top: 3rem !important;
+}
+
+.m-b-lg,
+.m-y-lg {
+  margin-bottom: 3rem !important;
+}
+
+.m-a-lg {
+  margin: 3rem !important;
+}
+
+.p-a-0 {
+  padding: 0 !important;
+}
+
+.p-r,
+.p-x {
+  padding-right: 1rem !important;
+}
+
+.p-l,
+.p-x {
+  padding-left: 1rem !important;
+}
+
+.p-t,
+.p-y {
+  padding-top: 1rem !important;
+}
+
+.p-b,
+.p-y {
+  padding-bottom: 1rem !important;
+}
+
+.p-a {
+  padding: 1rem !important;
+}
+
+.p-r-md,
+.p-x-md {
+  padding-right: 1.5rem !important;
+}
+
+.p-l-md,
+.p-x-md {
+  padding-left: 1.5rem !important;
+}
+
+.p-t-md,
+.p-y-md {
+  padding-top: 1.5rem !important;
+}
+
+.p-b-md,
+.p-y-md {
+  padding-bottom: 1.5rem !important;
+}
+
+.p-a-md {
+  padding: 1.5rem !important;
+}
+
+.p-r-lg,
+.p-x-lg {
+  padding-right: 3rem !important;
+}
+
+.p-l-lg,
+.p-x-lg {
+  padding-left: 3rem !important;
+}
+
+.p-t-lg,
+.p-y-lg {
+  padding-top: 3rem !important;
+}
+
+.p-b-lg,
+.p-y-lg {
+  padding-bottom: 3rem !important;
+}
+
+.p-a-lg {
+  padding: 3rem !important;
+}
+
+.pos-f-t {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}

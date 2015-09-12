@@ -1,0 +1,1460 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-toggle:focus,\n.open > a"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown,\n.dropup"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "height",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-top",
+          "value": ".3em solid"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-right",
+          "value": ".3em solid transparent"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-left",
+          "value": ".3em solid transparent"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-toggle::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-bottom",
+          "value": ".3em solid"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropup .dropdown-toggle::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "top",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "1000"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "display",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "float",
+          "value": "left"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "min-width",
+          "value": "10pc"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "padding",
+          "value": "5px 0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "margin",
+          "value": "2px 0 0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "left"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "list-style",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "-webkit-background-clip",
+          "value": "padding-box"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-clip",
+          "value": "padding-box"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid rgba(0, 0, 0, .15)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-menu"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "padding",
+          "value": "3px 20px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "white-space",
+          "value": "nowrap"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-header,\n.dropdown-item"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "height",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "margin",
+          "value": ".5rem 0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "overflow",
+          "value": "hidden"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#e5e5e5"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-divider"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "clear",
+          "value": "both"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "400"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "color",
+          "value": "#373a3c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background",
+          "value": "0 0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-item"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "color",
+          "value": "#2b2d2f"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f5f5f5"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-item:focus,\n.dropdown-item:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#0275d8"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-item.active,\n.dropdown-item.active:focus,\n.dropdown-item.active:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "color",
+          "value": "#818a91"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-item.disabled,\n.dropdown-item.disabled:focus,\n.dropdown-item.disabled:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "not-allowed"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "background-image",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "filter",
+          "value": "\"progid:DXImageTransform.Microsoft.gradient(enabled = false)\""
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-item.disabled:focus,\n.dropdown-item.disabled:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".open > .dropdown-menu"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "left",
+          "value": "auto"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-menu-right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "right",
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-menu-left"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "font-size",
+          "value": ".85rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "color",
+          "value": "#818a91"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-header"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "position",
+          "value": "fixed"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "990"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropdown-backdrop"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "left",
+          "value": "auto"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".pull-right > .dropdown-menu"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "border-bottom",
+          "value": ".3em solid"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropup .caret,\n.navbar-fixed-bottom .dropdown .caret"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "top",
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "2px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "dropdown.css"
+        }
+      },
+      "selector": ".dropup .dropdown-menu,\n.navbar-fixed-bottom .dropdown .dropdown-menu"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "dropdown.css"
+    }
+  }
+}

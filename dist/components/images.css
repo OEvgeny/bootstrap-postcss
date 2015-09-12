@@ -1,0 +1,27 @@
+.img-fluid,
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  display: block;
+}
+
+.img-rounded {
+  border-radius: .3rem;
+}
+
+.img-thumbnail {
+  padding: .25rem;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}

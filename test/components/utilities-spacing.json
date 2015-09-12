@@ -1,0 +1,1428 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-right",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-r-0,\n.m-x-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-left",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-l-0,\n.m-x-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-top",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-t-0,\n.m-y-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-b-0,\n.m-y-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-right",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-r-0,\n.p-x-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-left",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-l-0,\n.p-x-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-top",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-t-0,\n.p-y-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-b-0,\n.p-y-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-a-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-right",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-r,\n.m-x"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-left",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-l,\n.m-x"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-top",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-t,\n.m-y"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-b,\n.m-y"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-a"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-top",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-t-md,\n.m-y-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-b-md,\n.m-y-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-right",
+          "important": true,
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-left",
+          "important": true,
+          "value": "auto"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-x-auto"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-right",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-r-md,\n.m-x-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-left",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-l-md,\n.m-x-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-a-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-right",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-r-lg,\n.m-x-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-left",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-l-lg,\n.m-x-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-top",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-t-lg,\n.m-y-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-b-lg,\n.m-y-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "margin",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".m-a-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding",
+          "important": true,
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-a-0"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-right",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-r,\n.p-x"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-left",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-l,\n.p-x"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-top",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-t,\n.p-y"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-b,\n.p-y"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding",
+          "important": true,
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-a"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-right",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-r-md,\n.p-x-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-left",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-l-md,\n.p-x-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-top",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-t-md,\n.p-y-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-b-md,\n.p-y-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding",
+          "important": true,
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-a-md"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-right",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-r-lg,\n.p-x-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-left",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-l-lg,\n.p-x-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-top",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-t-lg,\n.p-y-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-b-lg,\n.p-y-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "padding",
+          "important": true,
+          "value": "3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".p-a-lg"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "position",
+          "value": "fixed"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities-spacing.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "1030"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities-spacing.css"
+        }
+      },
+      "selector": ".pos-f-t"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "utilities-spacing.css"
+    }
+  }
+}

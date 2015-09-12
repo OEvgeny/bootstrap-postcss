@@ -1,0 +1,548 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "print.css"
+        }
+      },
+      "params": "print",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "page-break-inside",
+              "value": "avoid"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "blockquote,\n  img,\n  pre,\n  tr"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "text-shadow",
+              "important": true,
+              "value": "none"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "-webkit-box-shadow",
+              "important": true,
+              "value": "none"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "box-shadow",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "*,\n  ::after,\n  ::before"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "text-decoration",
+              "value": "underline"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "a,\n  a:visited"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "content",
+              "value": "\" (\" attr(title) \")\""
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "abbr[title]::after"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "border",
+              "value": "1px solid #999"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "blockquote,\n  pre"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "display",
+              "value": "table-header-group"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "thead"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "max-width",
+              "important": true,
+              "value": "100%"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "img"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "orphans",
+              "value": "3"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "widows",
+              "value": "3"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "h2,\n  h3,\n  p"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "page-break-after",
+              "value": "avoid"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": "h2,\n  h3"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "display",
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": ".navbar"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "border-top-color",
+              "important": true,
+              "value": "#000"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": ".btn > .caret,\n  .dropup > .btn > .caret"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "border",
+              "value": "1px solid #000"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": ".label"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "border-collapse",
+              "important": true,
+              "value": "collapse"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": ".table"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "background-color",
+              "important": true,
+              "value": "#fff"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": ".table td,\n  .table th"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "print.css"
+                }
+              },
+              "prop": "border",
+              "important": true,
+              "value": "1px solid #ddd"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "print.css"
+            }
+          },
+          "selector": ".table-bordered td,\n  .table-bordered th"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "print.css"
+    }
+  }
+}

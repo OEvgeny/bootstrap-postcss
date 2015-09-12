@@ -1,0 +1,444 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "center"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "list-style",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "display",
+          "value": "table"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "clear",
+          "value": "both"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager li"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "padding",
+          "value": "5px 14px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #ddd"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "15px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager li > a,\n.pager li > span"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager li > a:focus,\n.pager li > a:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "color",
+          "value": "#818a91"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "not-allowed"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager .disabled > a,\n.pager .disabled > a:focus,\n.pager .disabled > a:hover,\n.pager .disabled > span"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "float",
+          "value": "right"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager-next > a,\n.pager-next > span"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "pager.css"
+            }
+          },
+          "prop": "float",
+          "value": "left"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "pager.css"
+        }
+      },
+      "selector": ".pager-prev > a,\n.pager-prev > span"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "pager.css"
+    }
+  }
+}

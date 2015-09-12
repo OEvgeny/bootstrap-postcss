@@ -1,0 +1,1172 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "float",
+          "value": "left"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-reflow thead,\n.table-reflow tr"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "max-width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "top"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-top",
+          "value": "1px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table td,\n.table th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "bottom"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-bottom",
+          "value": "2px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table thead th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-top",
+          "value": "2px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table tbody + tbody"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table .table"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-sm td,\n.table-sm th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-bordered,\n.table-bordered td,\n.table-bordered th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-bottom-width",
+          "value": "2px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-bordered thead td,\n.table-bordered thead th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f9f9f9"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-striped tbody tr:nth-of-type(odd)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f5f5f5"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-active,\n.table-active > td,\n.table-active > th,\n.table-hover tbody tr:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#e8e8e8"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-hover .table-active:hover,\n.table-hover .table-active:hover > td,\n.table-hover .table-active:hover > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#dff0d8"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-success,\n.table-success > td,\n.table-success > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#d0e9c6"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-hover .table-success:hover,\n.table-hover .table-success:hover > td,\n.table-hover .table-success:hover > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#d9edf7"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-info,\n.table-info > td,\n.table-info > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#c4e3f3"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-hover .table-info:hover,\n.table-hover .table-info:hover > td,\n.table-hover .table-info:hover > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fcf8e3"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-warning,\n.table-warning > td,\n.table-warning > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#faf2cc"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-hover .table-warning:hover,\n.table-hover .table-warning:hover > td,\n.table-hover .table-warning:hover > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f2dede"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-danger,\n.table-danger > td,\n.table-danger > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#ebcccc"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-hover .table-danger:hover,\n.table-hover .table-danger:hover > td,\n.table-hover .table-danger:hover > th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "overflow-x",
+          "value": "auto"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-responsive"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#373a3c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".thead-inverse th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "color",
+          "value": "#55595c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".thead-default th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "color",
+          "value": "#eceeef"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#373a3c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-inverse"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-inverse.table-bordered"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "#55595c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-inverse td,\n.table-inverse th,\n.table-inverse thead th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "white-space",
+          "value": "nowrap"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-reflow tbody"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-top",
+          "value": "1px solid #eceeef"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-left",
+          "value": "1px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-reflow td,\n.table-reflow th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-right",
+          "value": "1px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-reflow td:last-child,\n.table-reflow th:last-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border-bottom",
+          "value": "1px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-reflow tbody:last-child tr:last-child td,\n.table-reflow tbody:last-child tr:last-child th,\n.table-reflow tfoot:last-child tr:last-child td,\n.table-reflow tfoot:last-child tr:last-child th,\n.table-reflow thead:last-child tr:last-child td,\n.table-reflow thead:last-child tr:last-child th"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "display",
+          "important": true,
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #eceeef"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "tables.css"
+        }
+      },
+      "selector": ".table-reflow tr td,\n.table-reflow tr th"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "tables.css"
+    }
+  }
+}

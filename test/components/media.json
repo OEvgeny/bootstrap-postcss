@@ -1,0 +1,473 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "15px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media:first-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "overflow",
+          "value": "hidden"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "zoom",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media,\n.media-body"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "width",
+          "value": "625pc"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-body"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "display",
+          "value": "table-cell"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "top"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-body,\n.media-left,\n.media-right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-middle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "bottom"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-bottom"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-object"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "max-width",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-object.img-thumbnail"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": "10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-left"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "5px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-heading"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "media.css"
+            }
+          },
+          "prop": "list-style",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "media.css"
+        }
+      },
+      "selector": ".media-list"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "media.css"
+    }
+  }
+}

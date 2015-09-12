@@ -1,0 +1,103 @@
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.5;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  font-size: .85rem;
+  opacity: 0;
+}
+
+.tooltip.in {
+  opacity: .9;
+}
+
+.tooltip.bs-tether-element-attached-bottom,
+.tooltip.tooltip-top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+
+.tooltip.bs-tether-element-attached-bottom .tooltip-arrow,
+.tooltip.tooltip-top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+
+.tooltip.bs-tether-element-attached-left,
+.tooltip.tooltip-right {
+  padding: 0 5px;
+  margin-left: 3px;
+}
+
+.tooltip.bs-tether-element-attached-left .tooltip-arrow,
+.tooltip.tooltip-right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000;
+}
+
+.tooltip.bs-tether-element-attached-top,
+.tooltip.tooltip-bottom {
+  padding: 5px 0;
+  margin-top: 3px;
+}
+
+.tooltip.bs-tether-element-attached-top .tooltip-arrow,
+.tooltip.tooltip-bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+
+.tooltip.bs-tether-element-attached-right,
+.tooltip.tooltip-left {
+  padding: 0 5px;
+  margin-left: -3px;
+}
+
+.tooltip.bs-tether-element-attached-right .tooltip-arrow,
+.tooltip.tooltip-left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: .25rem;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}

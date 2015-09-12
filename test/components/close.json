@@ -1,0 +1,289 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "float",
+          "value": "right"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.5rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "700"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "color",
+          "value": "#000"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "text-shadow",
+          "value": "0 1px 0 #fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "opacity",
+          "value": ".2"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "close.css"
+        }
+      },
+      "selector": ".close"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "color",
+          "value": "#000"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "opacity",
+          "value": ".5"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "close.css"
+        }
+      },
+      "selector": ".close:focus,\n.close:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "background",
+          "value": "0 0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "close.css"
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "close.css"
+        }
+      },
+      "selector": "button.close"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "close.css"
+    }
+  }
+}

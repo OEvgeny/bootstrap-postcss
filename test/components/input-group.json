@@ -1,0 +1,925 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group,\n.input-group-btn,\n.input-group-btn > .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "display",
+          "value": "table"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-collapse",
+          "value": "separate"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "2"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "float",
+          "value": "left"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group .form-control"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "display",
+          "value": "table-cell"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group .form-control,\n.input-group-addon,\n.input-group-btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group .form-control:not(:first-child):not(:last-child),\n.input-group-addon:not(:first-child):not(:last-child),\n.input-group-btn:not(:first-child):not(:last-child)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "width",
+          "value": "1%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "white-space",
+          "value": "nowrap"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon,\n.input-group-btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".375rem .75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "400"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "color",
+          "value": "#55595c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "center"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eceeef"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid #ccc"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".275rem .75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "font-size",
+          "value": ".85rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".2rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon.form-control-sm,\n.input-group-sm > .input-group-addon,\n.input-group-sm > .input-group-btn > .input-group-addon.btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".75rem 1.25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon.form-control-lg,\n.input-group-lg > .input-group-addon,\n.input-group-lg > .input-group-btn > .input-group-addon.btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon input[type=radio],\n.input-group-addon input[type=checkbox]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-bottom-right-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-top-right-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group .form-control:first-child,\n.input-group-addon:first-child,\n.input-group-btn:first-child > .btn,\n.input-group-btn:first-child > .btn-group > .btn,\n.input-group-btn:first-child > .dropdown-toggle,\n.input-group-btn:last-child > .btn-group:not(:last-child) > .btn,\n.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-right",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon:first-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-top-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group .form-control:last-child,\n.input-group-addon:last-child,\n.input-group-btn:first-child > .btn-group:not(:first-child) > .btn,\n.input-group-btn:first-child > .btn:not(:first-child),\n.input-group-btn:last-child > .btn,\n.input-group-btn:last-child > .btn-group > .btn,\n.input-group-btn:last-child > .dropdown-toggle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "border-left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-addon:last-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "white-space",
+          "value": "nowrap"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-1px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-btn > .btn + .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "2"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-btn > .btn:active,\n.input-group-btn > .btn:focus,\n.input-group-btn > .btn:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "margin-right",
+          "value": "-1px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-btn:first-child > .btn,\n.input-group-btn:first-child > .btn-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "2"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-1px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-btn:last-child > .btn,\n.input-group-btn:last-child > .btn-group"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "input-group.css"
+    }
+  }
+}

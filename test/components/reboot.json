@@ -1,0 +1,1295 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "left"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "caption,\nth"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": ".5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "dd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nlabel,\nlegend"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "address,\nlegend"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "label,\noutput"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "-webkit-box-sizing",
+          "value": "border-box"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "box-sizing",
+          "value": "border-box"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1pc"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "-webkit-tap-highlight-color",
+          "value": "transparent"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "html"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "-webkit-box-sizing",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "box-sizing",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "*,\n::after,\n::before"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "  ",
+        "afterName": "",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "-ms-viewport",
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "params": "",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "width",
+          "value": "device-width"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "  ",
+        "afterName": "",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "viewport",
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "params": "",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "width",
+          "value": "device-width"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "font-family",
+          "value": "\"Helvetica Neue\", Helvetica, Arial, sans-serif"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "color",
+          "value": "#373a3c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "body"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "h1,\nh2,\nh3,\nh4,\nh5,\nh6"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "dl,\nol,\np,\npre,\nul"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "help"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "border-bottom",
+          "value": "1px dotted #818a91"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "abbr[data-original-title],\nabbr[title]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "font-style",
+          "value": "normal"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "address"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "ol ol,\nol ul,\nul ol,\nul ul"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "700"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "dt"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "dd"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin",
+          "value": "0 0 1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "blockquote,\nfigure"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "color",
+          "value": "#0275d8"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "a"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "color",
+          "value": "#014c8c"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "underline"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "a:focus,\na:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "outline",
+          "value": "dotted thin"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "outline",
+          "value": "-webkit-focus-ring-color auto 5px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "outline-offset",
+          "value": "-2px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "a:focus"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "img"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "cursor",
+          "value": "pointer"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "[role=button]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "table"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "padding-top",
+          "value": ".75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "value": ".75rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "color",
+          "value": "#818a91"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "caption-side",
+          "value": "bottom"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "caption"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "inherit"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "button,\ninput,\nselect,\ntextarea"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "resize",
+          "value": "vertical"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "textarea"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "min-width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "margin",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "border",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "fieldset"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "legend"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "-webkit-box-sizing",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "box-sizing",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "-webkit-appearance",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "input[type=search]"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "reboot.css"
+    }
+  }
+}

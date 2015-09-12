@@ -7,6 +7,14 @@ var $ = require('gulp-load-plugins')()
  */
 var scss = require('postcss-scss')
 
+// minifyCss config
+var minConf = {
+  compatibility: 'ie9',
+  keepSpecialComments: '*',
+  //sourceMap: true,
+  noAdvanced: true
+}
+
 function bootstrapPath(root, options) {
   // Remove functions (they are not supported for now). Use ./src/functions.js as replacement
   root.walkAtRules('function', function(rule) {
@@ -165,68 +173,96 @@ gulp.task('bootstrap', function() {
   return gulp.src('src/bootstrap.css')
     .pipe($.postcss(config, {syntax: scss}))
     .pipe(gulp.dest('dist'))
-    .pipe($.minifyCss({
-      compatibility: 'ie9',
-      keepSpecialComments: '*',
-      //sourceMap: true,
-      noAdvanced: true
-    }))
+    .pipe($.minifyCss(minConf))
     .pipe($.rename({suffix:'.min'}))
     .pipe(gulp.dest('dist'))
 })
 
+var cssfmt = require('cssfmt')({})
+
 // Configuration for components task
-var components = [
-  'alert',
-  'animation',
-  'breadcrumb',
-  'button-group',
-  'buttons',
-  'card',
-  'carousel',
-  'close',
-  'code',
-  'custom-forms',
-  'dropdown',
-  'forms',
-  'grid',
-  'images',
-  'input-group',
-  'jumbotron',
-  'labels',
-  'list-group',
-  'media',
-  'modal',
-  'nav',
-  'navbar',
-  'normalize',
-  'pager',
-  'pagination',
-  'popover',
-  'print',
-  'progress',
-  'reboot',
-  'responsive-embed',
-  'tables',
-  'tooltip',
-  'type',
-  'utilities-responsive',
-  'utilities-spacing',
-  'utilities'
-]
+var components = require('./components.json')
 
 /*
  * Build components separately for debug purposes
  */
 gulp.task('components', function() {
- return gulp.src('postcss/{'+components.join(',')+'}.css')
-  // include variables and mixins to each component
-  .pipe($.insert.prepend([
-    '@import "variables";',
-    '@import "mixins";',
-  ].join('\n')))
-  .pipe($.postcss(config, {syntax: scss}))
-  .pipe(gulp.dest('dist/components'))
+  config.push.apply(this, bsConfig)
+  return gulp.src('postcss/_{'+components.join(',')+'}.scss')
+    // include variables and mixins to each component
+    .pipe($.insert.prepend([
+      '@import "variables";',
+      '@import "mixins";',
+    ].join('\n')))
+    .pipe($.postcss(config, {syntax: scss}))
+    // Minify css to reduce difference
+    .pipe($.minifyCss(minConf))
+    // Format css to reduce difference
+    .pipe($.postcss([cssfmt]))
+    // Rename: _file.scss => file.css
+    .pipe($.rename(function(path) {
+      path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename,
+      path.extname = '.css'
+    }))
+    .pipe(gulp.dest('dist/components'))
+})
+
+/*
+ * Process css to json for each component
+ */
+gulp.task('cases', function(done) {
+  var jsonify = require('./src/jsonify')
+  var fs = require('fs')
+  var path = require('path')
+  var cases = 'test/components'
+  var postcss = require('postcss')
+
+  function read(file) {
+    return fs.readFileSync(path.join(cases, file)).toString();
+  }
+  fs.readdirSync(cases).forEach(function (file, index, arr) {
+    var isDone = (index == arr.length - 1)
+    if (path.extname(file) !== '.css') return isDone ? done() : null
+    var name = path.basename(file, '.css')
+    var css = read(name + '.css').trim()
+    var root = postcss.parse(css, { from: '/' + name + '.css' })
+    fs.writeFile(path.join(cases, name + '.json'), jsonify(root) + '\n', function(err) {
+      if (err) throw err
+      return isDone ? done() : null
+    })
+  })
+})
+
+/*
+ * Preprocess components from bootstrap with sass for tests
+ */
+gulp.task('components-sass', function() {
+  return gulp.src('bootstrap/scss/_{'+components.join(',')+'}.scss')
+    // include variables and mixins to each component
+    .pipe($.insert.prepend([
+      '@import "variables";',
+      '@import "mixins";',
+    ].join('\n')))
+    .pipe($.sass({processUnderscored: true}))
+    // Use bootstrap default postcss config
+    .pipe($.postcss(bsConfig))
+    // Minify css to reduce difference
+    .pipe($.minifyCss(minConf))
+    // Format css to reduce difference
+    .pipe($.postcss([cssfmt]))
+    // Rename: _file.css => file.css
+    .pipe($.rename(function(path) {
+      path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename
+    }))
+    .pipe(gulp.dest('test/components'))
+})
+
+
+/*
+ * Run tests
+ */
+gulp.task('test', function() {
+    return gulp.src('test/*.js', { read: false }).pipe($.mocha({reporter: require('./src/custom-reporter')}))
 })
 
 gulp.task('default', ['bootstrap'])

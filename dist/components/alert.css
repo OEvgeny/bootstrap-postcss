@@ -1,0 +1,90 @@
+.alert {
+  padding: 15px;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+
+.alert > p + p {
+  margin-top: 5px;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert-link {
+  font-weight: 700;
+}
+
+.alert-dismissible {
+  padding-right: 35px;
+}
+
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #D1EAC8;
+  color: #3c763d;
+}
+
+.alert-success hr {
+  border-top-color: #C4E4B9;
+}
+
+.alert-success .alert-link {
+  color: #376D38;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #C0E1F2;
+  color: #31708f;
+}
+
+.alert-info hr {
+  border-top-color: #AFD9EF;
+}
+
+.alert-info .alert-link {
+  color: #2C6581;
+}
+
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #FAF2CC;
+  color: #8a6d3b;
+}
+
+.alert-warning hr {
+  border-top-color: #F8EEB9;
+}
+
+.alert-warning .alert-link {
+  color: #7D6336;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #EBCCCC;
+  color: #a94442;
+}
+
+.alert-danger hr {
+  border-top-color: #E5BDBD;
+}
+
+.alert-danger .alert-link {
+  color: #973C3B;
+}

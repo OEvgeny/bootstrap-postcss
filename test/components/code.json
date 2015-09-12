@@ -1,0 +1,517 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "padding",
+          "value": ".2rem .4rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "90%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "code,\nkbd"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "90%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "code,\nkbd,\npre"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-family",
+          "value": "Menlo, Monaco, Consolas, \"Courier New\", monospace"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "code,\nkbd,\npre,\nsamp"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "color",
+          "value": "#bd4147"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f7f7f9"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "code"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#333"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".2rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "kbd"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "700"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "kbd kbd"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "color",
+          "value": "#373a3c"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "pre"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "padding",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "color",
+          "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": "pre code"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "max-height",
+          "value": "340px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "overflow-y",
+          "value": "scroll"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "code.css"
+        }
+      },
+      "selector": ".pre-scrollable"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "code.css"
+    }
+  }
+}

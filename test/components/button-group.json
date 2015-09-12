@@ -1,0 +1,1218 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "float",
+          "value": "left"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group > .btn-group,\n.btn-toolbar .btn-group,\n.btn-toolbar .input-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-right-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-right-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,\n.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle,\n.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn:not(:first-child):not(:last-child),\n.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn,\n.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "display",
+          "value": "inline-block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "vertical-align",
+          "value": "middle"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group,\n.btn-group-vertical"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "position",
+          "value": "relative"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "float",
+          "value": "left"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn,\n.btn-group > .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "2"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn.active,\n.btn-group-vertical > .btn:active,\n.btn-group-vertical > .btn:focus,\n.btn-group-vertical > .btn:hover,\n.btn-group > .btn.active,\n.btn-group > .btn:active,\n.btn-group > .btn:focus,\n.btn-group > .btn:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-1px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group .btn + .btn,\n.btn-group .btn + .btn-group,\n.btn-group .btn-group + .btn,\n.btn-group .btn-group + .btn-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-5px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-toolbar"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "display",
+          "value": "table"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "clear",
+          "value": "both"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-toolbar::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "5px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-toolbar > .btn,\n.btn-toolbar > .btn-group,\n.btn-toolbar > .input-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn .caret,\n.btn-group > .btn:first-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group > .btn:last-child:not(:first-child),\n.btn-group > .dropdown-toggle:not(:first-child)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "outline",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group .dropdown-toggle:active,\n.btn-group.open .dropdown-toggle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": "8px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "8px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group > .btn + .dropdown-toggle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": "9pt"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "9pt"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-lg.btn-group > .btn + .dropdown-toggle,\n.btn-group > .btn-lg + .dropdown-toggle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-width",
+          "value": ".3em .3em 0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-lg > .btn .caret,\n.btn-lg .caret"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-width",
+          "value": "0 .3em .3em"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".dropup .btn-group-lg > .btn .caret,\n.dropup .btn-lg .caret"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "float",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "width",
+          "value": "100%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "max-width",
+          "value": "100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn,\n.btn-group-vertical > .btn-group,\n.btn-group-vertical > .btn-group > .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "display",
+          "value": "table"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "clear",
+          "value": "both"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn-group::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "float",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn-group > .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "-1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn + .btn,\n.btn-group-vertical > .btn + .btn-group,\n.btn-group-vertical > .btn-group + .btn,\n.btn-group-vertical > .btn-group + .btn-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-right-radius",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-right-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn:first-child:not(:last-child)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-right-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn:last-child:not(:first-child)"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-right-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-bottom-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,\n.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-right-radius",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "border-top-left-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": ".btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "clip",
+          "value": "rect(0, 0, 0, 0)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "button-group.css"
+            }
+          },
+          "prop": "pointer-events",
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "button-group.css"
+        }
+      },
+      "selector": "[data-toggle=buttons] > .btn input[type=radio],\n[data-toggle=buttons] > .btn input[type=checkbox],\n[data-toggle=buttons] > .btn-group > .btn input[type=radio],\n[data-toggle=buttons] > .btn-group > .btn input[type=checkbox]"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "button-group.css"
+    }
+  }
+}

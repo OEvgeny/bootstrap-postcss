@@ -1,0 +1,227 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "padding",
+          "value": "2rem 1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": "2rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#eceeef"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "jumbotron.css"
+        }
+      },
+      "selector": ".jumbotron"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "border-top-color",
+          "value": "#d0d5d8"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "jumbotron.css"
+        }
+      },
+      "selector": ".jumbotron-hr"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": "\n"
+      },
+      "type": "atrule",
+      "name": "media",
+      "source": {
+        "input": {
+          "file": "jumbotron.css"
+        }
+      },
+      "params": "(min-width: 34em)",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "jumbotron.css"
+                }
+              },
+              "prop": "padding",
+              "value": "4rem 2rem"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "selector": ".jumbotron"
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "padding-right",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "padding-left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "jumbotron.css"
+        }
+      },
+      "selector": ".jumbotron-fluid"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "jumbotron.css"
+    }
+  }
+}

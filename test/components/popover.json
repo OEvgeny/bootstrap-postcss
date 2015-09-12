@@ -1,0 +1,1552 @@
+{
+  "raws": {
+    "semicolon": false,
+    "after": ""
+  },
+  "type": "root",
+  "nodes": [
+    {
+      "raws": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "top",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "left",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "1060"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "max-width",
+          "value": "276px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "padding",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "font-family",
+          "value": "\"Helvetica Neue\", Helvetica, Arial, sans-serif"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "font-style",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "font-weight",
+          "value": "400"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "letter-spacing",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "line-break",
+          "value": "auto"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1.5"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "left"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "text-align",
+          "value": "start"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "text-decoration",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "text-shadow",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "text-transform",
+          "value": "none"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "white-space",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "word-break",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "word-spacing",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "word-wrap",
+          "value": "normal"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "font-size",
+          "value": ".85rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "-webkit-background-clip",
+          "value": "padding-box"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "background-clip",
+          "value": "padding-box"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border",
+          "value": "1px solid rgba(0, 0, 0, .2)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": ".3rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "-10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-bottom,\n.popover.popover-top"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "left",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-top-color",
+          "value": "rgba(0, 0, 0, .25)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-bottom-width",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-bottom .popover-arrow,\n.popover.popover-top .popover-arrow"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-top-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-bottom-width",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-bottom .popover-arrow::after,\n.popover.popover-top .popover-arrow::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-left,\n.popover.popover-right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "top",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "left",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-right-color",
+          "value": "rgba(0, 0, 0, .25)"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-left-width",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-left .popover-arrow,\n.popover.popover-right .popover-arrow"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "-10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "left",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-right-color",
+          "value": "#fff"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-left-width",
+          "value": "0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-left .popover-arrow::after,\n.popover.popover-right .popover-arrow::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-top,\n.popover.popover-bottom"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "top",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "left",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-top-width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-bottom-color",
+          "value": "rgba(0, 0, 0, .25)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-top .popover-arrow,\n.popover.popover-bottom .popover-arrow"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "top",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-top-width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-bottom-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-top .popover-arrow::after,\n.popover.popover-bottom .popover-arrow::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-left",
+          "value": "-10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-right,\n.popover.popover-left"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "top",
+          "value": "50%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "right",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin-top",
+          "value": "-11px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-right-width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-left-color",
+          "value": "rgba(0, 0, 0, .25)"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-right .popover-arrow,\n.popover.popover-left .popover-arrow"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "right",
+          "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "bottom",
+          "value": "-10px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-right-width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-left-color",
+          "value": "#fff"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover.bs-tether-element-attached-right .popover-arrow::after,\n.popover.popover-left .popover-arrow::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "padding",
+          "value": "8px 14px"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "margin",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "background-color",
+          "value": "#f7f7f7"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-bottom",
+          "value": "1px solid #ebebeb"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "-.7rem -.7rem 0 0"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover-title"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "padding",
+          "value": "9px 14px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover-content"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "position",
+          "value": "absolute"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "width",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "height",
+          "value": "0"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-color",
+          "value": "transparent"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-style",
+          "value": "solid"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover-arrow,\n.popover-arrow::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-width",
+          "value": "11px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover-arrow"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "popover.css"
+            }
+          },
+          "prop": "border-width",
+          "value": "10px"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "popover.css"
+        }
+      },
+      "selector": ".popover-arrow::after"
+    }
+  ],
+  "source": {
+    "input": {
+      "file": "popover.css"
+    }
+  }
+}
