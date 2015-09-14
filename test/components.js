@@ -1,5 +1,5 @@
 var chai = require('chai')
-var components = require('../components.json')
+var components = require('../components.js')
 var parse = require('postcss').parse
 var jsonify = require('../src/jsonify')
 var fs = require('fs')

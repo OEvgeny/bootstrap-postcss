@@ -183,7 +183,7 @@ gulp.task('bootstrap', function() {
 var cssfmt = require('cssfmt')({})
 
 // Configuration for components task
-var components = require('./components.json')
+var components = require('./components.js')
 
 /*
  * Build components separately for debug purposes

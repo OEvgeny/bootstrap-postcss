@@ -1,4 +1,4 @@
-[ "alert",
+module.exports = [ "alert",
   "animation",
   "breadcrumb",
   "button-group",
