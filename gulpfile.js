@@ -97,7 +97,19 @@ gulp.task('postcss', function() {
     // Strip comments (or switch type - commented)
     .pipe($.replace(/(^|\;|\s+)\/\/(.*)/g, ''))//'$1/*$2 */'))
     // Path files to build correctly with postcss. See bootstrapPath function.
-    .pipe($.postcss([bootstrapPath], {syntax: scss}))
+    .pipe($.postcss([
+      bootstrapPath,
+      // All functions must be resolved after loops
+      // This ones used in loop's value declaration. Hack resolves them before loops.
+      require('postcss-functions')({
+        functions: {
+          // map-keys($var) => $var
+          'map-keys': funcs['map-keys'],
+          // rgba(x,x,x, 1) => #xxxxxx
+          'rgba': funcs['rgba']
+        }
+      }),
+    ], {syntax: scss}))
     // Rename files to get @import to work: _file.scss => file.css
     //.pipe($.rename(function(path) {
       //path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename
@@ -117,18 +129,11 @@ var config = [
     require('postcss-sassy-mixins')({
       //mixins: // Mixins written in JavaScript goes here
     }),
-    // Some variables used in loops. Simply skip them
+    // Some variables are used in loops. Simply skip them
     require('postcss-simple-vars')({
       unknown: function(node, name, result) {
         console.warn('Possible missed variable:', name)
         return false
-      }
-    }),
-    // All functions must be resolved after loops
-    // This ones used in loop's value declaration. Hack resolves them before loops.
-    require('postcss-functions')({
-      functions: {
-        "map-keys": funcs["map-keys"]
       }
     }),
     // Resolve @each loops
@@ -143,13 +148,13 @@ var config = [
     require('postcss-conditionals')(),
     // Resolve calculations in ()
     require('./src/plugins/sassy-calc')(),
-    // Attach some rules to root css node, in case when it is included to selector:
+    // Resolve @extend
+    require('postcss-sass-extend')(),
+    // Attach some rules to root css node, in case when it is included to selector
     // e.g.: .bs {@include "bootstrap.css";}
     require('./src/plugins/at-root.js')(),
     // Resolve nested rules
     require('postcss-nested')(),
-    // Resolve @extend
-    require('postcss-sass-extend')()
 ]
 
 // Bootstrap Config related plugins
