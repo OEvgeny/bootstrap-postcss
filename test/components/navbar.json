@@ -832,7 +832,7 @@
             }
           },
           "prop": "border",
-          "value": ".0625rem solid transparent"
+          "value": "1px solid transparent"
         },
         {
           "raws": {

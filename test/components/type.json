@@ -544,7 +544,7 @@
             }
           },
           "prop": "border-top",
-          "value": ".0625rem solid rgba(0, 0, 0, .1)"
+          "value": "1px solid rgba(0, 0, 0, .1)"
         }
       ],
       "source": {

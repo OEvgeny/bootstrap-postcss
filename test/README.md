@@ -9,42 +9,42 @@
     ✓ component: animation
     ✓ component: breadcrumb
     2) component: button-group
-    3) component: buttons
+    ✓ component: buttons
     ✓ component: card
-    ✓ component: carousel
+    ✓ component: carousel (91ms)
     ✓ component: close
     ✓ component: code
     ✓ component: custom-forms
     ✓ component: dropdown
-    4) component: forms
-    5) component: grid
+    3) component: forms
+    4) component: grid
     ✓ component: images
-    6) component: input-group
+    5) component: input-group
     ✓ component: jumbotron
     ✓ component: labels
-    7) component: list-group
+    ✓ component: list-group
     ✓ component: media
     ✓ component: modal
     ✓ component: nav
-    8) component: navbar
+    ✓ component: navbar
     ✓ component: normalize
     ✓ component: pager
     ✓ component: pagination
-    9) component: popover
+    6) component: popover
     ✓ component: print
     ✓ component: progress
     ✓ component: reboot
     ✓ component: responsive-embed
     ✓ component: tables
     ✓ component: tooltip
-    10) component: type
+    ✓ component: type
     ✓ component: utilities-responsive
     ✓ component: utilities-spacing
     ✓ component: utilities
 
 
-  26 passing (542ms)
-  10 failing
+  30 passing (617ms)
+  6 failing
 
   1) Bootstrap v4 PostCSS component: alert:
 
@@ -130,141 +130,24 @@
       
   
 
-  3) Bootstrap v4 PostCSS component: buttons:
+  3) Bootstrap v4 PostCSS component: forms:
 
       + expected - actual
 
-                     "file": "buttons.css"
-                   }
-                 },
-                 "prop": "border",
-      -          "value": "1px solid transparent"
-      +          "value": ".0625rem solid transparent"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-      
-  
-
-  4) Bootstrap v4 PostCSS component: forms:
-
-      + expected - actual
-
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "border",
-      -          "value": "1px solid #ccc"
-      +          "value": ".0625rem solid #ccc"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "padding",
-      -          "value": ".375rem .75rem"
-      +          "value": ".4375rem .75rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                         "file": "forms.css"
-                       }
-                     },
-                     "prop": "line-height",
-      -              "value": "2.25rem"
-      +              "value": "2.375rem"
-                   }
-                 ],
-                 "source": {
-                   "input": {
-                         "file": "forms.css"
-                       }
-                     },
-                     "prop": "line-height",
-      -              "value": "1.825rem"
-      +              "value": "1.95rem"
-                   }
-                 ],
-                 "source": {
-                   "input": {
                          "file": "forms.css"
                        }
                      },
                      "prop": "line-height",
       -              "value": "3.16666rem"
-      +              "value": "3.29167rem"
+      +              "value": "3.16667rem"
                    }
                  ],
                  "source": {
                    "input": {
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "min-height",
-      -          "value": "2.25rem"
-      +          "value": "2.375rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "padding-top",
-      -          "value": ".375rem"
-      +          "value": ".4375rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "padding-bottom",
-      -          "value": ".375rem"
-      +          "value": ".4375rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "background-position",
-      -          "value": "center right .5625rem"
-      +          "value": "center right .59375rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "-webkit-background-size",
-      -          "value": "1.4625rem 1.4625rem"
-      +          "value": "1.54375rem 1.54375rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "forms.css"
-                   }
-                 },
-                 "prop": "background-size",
-      -          "value": "1.4625rem 1.4625rem"
-      +          "value": "1.54375rem 1.54375rem"
-               }
-             ],
-             "source": {
-               "input": {
       
   
 
-  5) Bootstrap v4 PostCSS component: grid:
+  4) Bootstrap v4 PostCSS component: grid:
 
       + expected - actual
 
@@ -466,7 +349,7 @@
       
   
 
-  6) Bootstrap v4 PostCSS component: input-group:
+  5) Bootstrap v4 PostCSS component: input-group:
 
       + expected - actual
 
@@ -493,61 +376,7 @@
       
   
 
-  7) Bootstrap v4 PostCSS component: list-group:
-
-      + expected - actual
-
-                     "file": "list-group.css"
-                   }
-                 },
-                 "prop": "margin-bottom",
-      -          "value": "-1px"
-      +          "value": "-.0625rem"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-                     "file": "list-group.css"
-                   }
-                 },
-                 "prop": "border",
-      -          "value": "1px solid #ddd"
-      +          "value": ".0625rem solid #ddd"
-               }
-             ],
-             "source": {
-               "input": {
-                     "file": "list-group.css"
-                   }
-                 },
-                 "prop": "border-width",
-      -          "value": "1px 0"
-      +          "value": ".0625rem 0"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-      
-  
-
-  8) Bootstrap v4 PostCSS component: navbar:
-
-      + expected - actual
-
-                     "file": "navbar.css"
-                   }
-                 },
-                 "prop": "border",
-      -          "value": "1px solid transparent"
-      +          "value": ".0625rem solid transparent"
-               },
-               {
-                 "raws": {
-                   "before": "\n  ",
-      
-  
-
-  9) Bootstrap v4 PostCSS component: popover:
+  6) Bootstrap v4 PostCSS component: popover:
 
       + expected - actual
 
@@ -561,23 +390,6 @@
                {
                  "raws": {
                    "before": "\n  ",
-      
-  
-
-  10) Bootstrap v4 PostCSS component: type:
-
-      + expected - actual
-
-                     "file": "type.css"
-                   }
-                 },
-                 "prop": "border-top",
-      -          "value": "1px solid rgba(0, 0, 0, .1)"
-      +          "value": ".0625rem solid rgba(0, 0, 0, .1)"
-               }
-             ],
-             "source": {
-               "input": {
       
   
 

@@ -155,7 +155,7 @@
             }
           },
           "prop": "border",
-          "value": ".0625rem solid #ccc"
+          "value": "1px solid #ccc"
         },
         {
           "raws": {
@@ -577,7 +577,7 @@
             }
           },
           "prop": "padding",
-          "value": ".4375rem .75rem"
+          "value": ".375rem .75rem"
         },
         {
           "raws": {
@@ -639,7 +639,7 @@
                 }
               },
               "prop": "line-height",
-              "value": "2.375rem"
+              "value": "2.25rem"
             }
           ],
           "source": {
@@ -670,7 +670,7 @@
                 }
               },
               "prop": "line-height",
-              "value": "1.95rem"
+              "value": "1.825rem"
             }
           ],
           "source": {
@@ -701,7 +701,7 @@
                 }
               },
               "prop": "line-height",
-              "value": "3.29167rem"
+              "value": "3.16667rem"
             }
           ],
           "source": {
@@ -734,7 +734,7 @@
             }
           },
           "prop": "min-height",
-          "value": "2.375rem"
+          "value": "2.25rem"
         },
         {
           "raws": {
@@ -748,7 +748,7 @@
             }
           },
           "prop": "padding-top",
-          "value": ".4375rem"
+          "value": ".375rem"
         },
         {
           "raws": {
@@ -762,7 +762,7 @@
             }
           },
           "prop": "padding-bottom",
-          "value": ".4375rem"
+          "value": ".375rem"
         },
         {
           "raws": {
@@ -1445,7 +1445,7 @@
             }
           },
           "prop": "background-position",
-          "value": "center right .59375rem"
+          "value": "center right .5625rem"
         },
         {
           "raws": {
@@ -1459,7 +1459,7 @@
             }
           },
           "prop": "-webkit-background-size",
-          "value": "1.54375rem 1.54375rem"
+          "value": "1.4625rem 1.4625rem"
         },
         {
           "raws": {
@@ -1473,7 +1473,7 @@
             }
           },
           "prop": "background-size",
-          "value": "1.54375rem 1.54375rem"
+          "value": "1.4625rem 1.4625rem"
         }
       ],
       "source": {

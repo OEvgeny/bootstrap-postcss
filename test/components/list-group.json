@@ -113,7 +113,7 @@
             }
           },
           "prop": "margin-bottom",
-          "value": "-.0625rem"
+          "value": "-1px"
         },
         {
           "raws": {
@@ -141,7 +141,7 @@
             }
           },
           "prop": "border",
-          "value": ".0625rem solid #ddd"
+          "value": "1px solid #ddd"
         }
       ],
       "source": {
@@ -276,7 +276,7 @@
             }
           },
           "prop": "border-width",
-          "value": ".0625rem 0"
+          "value": "1px 0"
         },
         {
           "raws": {
