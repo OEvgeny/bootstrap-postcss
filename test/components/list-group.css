@@ -7,9 +7,9 @@
   position: relative;
   display: block;
   padding: .75rem 1.25rem;
-  margin-bottom: -.0625rem;
+  margin-bottom: -1px;
   background-color: #fff;
-  border: .0625rem solid #ddd;
+  border: 1px solid #ddd;
 }
 
 .list-group-item:first-child {
@@ -24,7 +24,7 @@
 }
 
 .list-group-flush .list-group-item {
-  border-width: .0625rem 0;
+  border-width: 1px 0;
   border-radius: 0;
 }
 

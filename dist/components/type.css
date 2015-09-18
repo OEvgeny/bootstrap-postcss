@@ -83,7 +83,7 @@ h6 {
 hr {
   margin-top: 1rem;
   border: 0;
-  border-top: .0625rem solid rgba(0, 0, 0, .1);
+  border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 .small,
