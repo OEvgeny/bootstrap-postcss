@@ -1,5 +1,6 @@
 var gulp = require('gulp')
 var $ = require('gulp-load-plugins')()
+var sequence = require('run-sequence')
 
 /*
  * It's not working properly for now, but heads up! Let's include it
@@ -270,6 +271,13 @@ gulp.task('components-sass', function() {
  */
 gulp.task('test', function() {
     return gulp.src('test/*.js', { read: false }).pipe($.mocha({reporter: require('./src/custom-reporter')}))
+})
+
+/*
+ * Update bootstrap
+ */
+gulp.task('update', function(done) {
+  sequence(['bootstrap', 'postcss', 'components-sass'], 'components', 'cases', done)
 })
 
 gulp.task('default', ['bootstrap'])
