@@ -89,9 +89,6 @@ function safeEval(exp) {
 }
 
 module.exports = {
-  // Helper to use color in styles e.g.:
-  // color(#123).lighten(0.2).alpha(1).hexString()
-  // color: clr,
   // Inline if Implementation. Need to be reworked.
   'if': function(exp, trueVal, falseVal) {
     var res = safeEval(exp)
@@ -113,7 +110,7 @@ module.exports = {
     result = result.alpha(result.alpha() + val)
     return result.alpha() >= 1 ? result.hex().toLowerCase() : result.cssa()
   },
-  "map-keys": function(map) {
+  'map-keys': function(map) {
     var ret = Object.keys(mapToHash(map)).join(', ')
     return ret
   },
