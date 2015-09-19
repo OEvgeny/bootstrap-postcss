@@ -24,7 +24,7 @@
     "gulp-postcss": "^6.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-sass": "git+https://github.com/OEvgeny/gulp-sass.git",
+    "gulp-sass": "^2.0.4",
     "mocha": "^2.3.2",
     "onecolor": "^2.5.0",
     "postcss": "^5.0.5",

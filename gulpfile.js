@@ -245,24 +245,24 @@ gulp.task('cases', function(done) {
  * Preprocess components from bootstrap with sass for tests
  */
 gulp.task('components-sass', function() {
-  return gulp.src('bootstrap/scss/_{'+components.join(',')+'}.scss')
-    // include variables and mixins to each component
-    .pipe($.insert.prepend([
-      '@import "variables";',
-      '@import "mixins";',
-    ].join('\n')))
-    .pipe($.sass({processUnderscored: true}))
-    // Use bootstrap default postcss config
-    .pipe($.postcss(bsConfig))
-    // Minify css to reduce difference
-    .pipe($.minifyCss(minConf))
-    // Format css to reduce difference
-    .pipe($.postcss([cssfmt]))
-    // Rename: _file.css => file.css
-    .pipe($.rename(function(path) {
-      path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename
-    }))
-    .pipe(gulp.dest('test/components'))
+ return gulp.src('bootstrap/scss/_{'+components.join(',')+'}.scss')
+   // include variables and mixins to each component
+   .pipe($.insert.prepend([
+     '@import "variables";',
+     '@import "mixins";',
+   ].join('\n')))
+   // Rename: _file.scss => file.scss
+   .pipe($.rename(function(path) {
+     path.basename = path.basename[0] == '_' ? path.basename.substr(1) : path.basename
+   }))
+   .pipe($.sass())
+   // Use bootstrap default postcss config
+   .pipe($.postcss(bsConfig))
+   // Minify css to reduce difference
+   .pipe($.minifyCss(minConf))
+   // Format css to reduce difference
+   .pipe($.postcss([cssfmt]))
+   .pipe(gulp.dest('test/components'))
 })
 
 
