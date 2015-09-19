@@ -1,7 +1,6 @@
 app:
-#  tty: true
-#  stdin_open: true
-  build: .
+  image: node:latest
+  working_dir: /app/
   command: npm start
   volumes:
    - .:/app/
