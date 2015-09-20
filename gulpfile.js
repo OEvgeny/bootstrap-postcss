@@ -153,7 +153,7 @@ var config = [
     require('postcss-sass-extend')(),
     // Attach some rules to root css node, in case when it is included to selector
     // e.g.: .bs {@include "bootstrap.css";}
-    require('./src/plugins/at-root.js')(),
+    require('postcss-atroot')(),
     // Resolve nested rules
     require('postcss-nested')(),
 ]

@@ -28,6 +28,7 @@
     "mocha": "^2.3.2",
     "onecolor": "^2.5.0",
     "postcss": "^5.0.5",
+    "postcss-atroot": "^0.1.2",
     "postcss-conditionals": "^2.0.0",
     "postcss-each": "^0.7.0",
     "postcss-for": "^2.0.0",
