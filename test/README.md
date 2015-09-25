@@ -11,7 +11,7 @@
     2) component: button-group
     ✓ component: buttons
     ✓ component: card
-    ✓ component: carousel (91ms)
+    ✓ component: carousel (46ms)
     ✓ component: close
     ✓ component: code
     ✓ component: custom-forms
@@ -43,7 +43,7 @@
     ✓ component: utilities
 
 
-  30 passing (617ms)
+  30 passing (515ms)
   6 failing
 
   1) Bootstrap v4 PostCSS component: alert:
@@ -91,7 +91,7 @@
              "source": {
                "input": {
       
-  
+      at Context.<anonymous> (test/components.js:23:30)
 
   2) Bootstrap v4 PostCSS component: button-group:
 
@@ -128,7 +128,7 @@
              "raws": {
                "before": "\n\n",
       
-  
+      at Context.<anonymous> (test/components.js:23:30)
 
   3) Bootstrap v4 PostCSS component: forms:
 
@@ -145,12 +145,164 @@
                  "source": {
                    "input": {
       
-  
+      at Context.<anonymous> (test/components.js:23:30)
 
   4) Bootstrap v4 PostCSS component: grid:
 
       + expected - actual
 
+                   }
+                 },
+                 "prop": "margin-left",
+                 "value": "auto"
+      +        }
+      +      ],
+      +      "source": {
+      +        "input": {
+      +          "file": "grid.css"
+      +        }
+      +      },
+      +      "selector": ".container,\n.container-fluid"
+      +    },
+      +    {
+      +      "raws": {
+      +        "before": "\n\n",
+      +        "between": " ",
+      +        "semicolon": true,
+      +        "after": "\n"
+      +      },
+      +      "type": "rule",
+      +      "nodes": [
+      +        {
+      +          "raws": {
+      +            "before": "\n  ",
+      +            "between": ": "
+      +          },
+      +          "type": "decl",
+      +          "source": {
+      +            "input": {
+      +              "file": "grid.css"
+      +            }
+      +          },
+      +          "prop": "content",
+      +          "value": "\"\""
+               },
+               {
+                 "raws": {
+                   "before": "\n  ",
+                   "input": {
+                     "file": "grid.css"
+                   }
+                 },
+      -          "prop": "padding-left",
+      -          "value": ".9375rem"
+      +          "prop": "display",
+      +          "value": "table"
+               },
+               {
+                 "raws": {
+                   "before": "\n  ",
+                   "input": {
+                     "file": "grid.css"
+                   }
+                 },
+      -          "prop": "padding-right",
+      -          "value": ".9375rem"
+      +          "prop": "clear",
+      +          "value": "both"
+               }
+             ],
+             "source": {
+               "input": {
+                 "file": "grid.css"
+               }
+             },
+      -      "selector": ".container,\n.container-fluid"
+      +      "selector": ".container-fluid::after,\n.container::after,\n.row::after"
+           },
+           {
+             "raws": {
+               "before": "\n\n",
+                   "input": {
+                     "file": "grid.css"
+                   }
+                 },
+      -          "prop": "margin-left",
+      -          "value": "-.9375rem"
+      +          "prop": "padding-left",
+      +          "value": ".9375rem"
+               },
+               {
+                 "raws": {
+                   "before": "\n  ",
+                   "input": {
+                     "file": "grid.css"
+                   }
+                 },
+      -          "prop": "margin-right",
+      -          "value": "-.9375rem"
+      +          "prop": "padding-right",
+      +          "value": ".9375rem"
+               }
+             ],
+             "source": {
+               "input": {
+                 "file": "grid.css"
+               }
+             },
+      -      "selector": ".row"
+      +      "selector": ".container,\n.container-fluid"
+           },
+           {
+             "raws": {
+               "before": "\n\n",
+                   "input": {
+                     "file": "grid.css"
+                   }
+                 },
+      -          "prop": "content",
+      -          "value": "\"\""
+      +          "prop": "margin-left",
+      +          "value": "-.9375rem"
+               },
+               {
+                 "raws": {
+                   "before": "\n  ",
+                   "input": {
+                     "file": "grid.css"
+                   }
+                 },
+      -          "prop": "display",
+      -          "value": "table"
+      -        },
+      -        {
+      -          "raws": {
+      -            "before": "\n  ",
+      -            "between": ": "
+      -          },
+      -          "type": "decl",
+      -          "source": {
+      -            "input": {
+      -              "file": "grid.css"
+      -            }
+      -          },
+      -          "prop": "clear",
+      -          "value": "both"
+      +          "prop": "margin-right",
+      +          "value": "-.9375rem"
+               }
+             ],
+             "source": {
+               "input": {
+                 "file": "grid.css"
+               }
+             },
+      -      "selector": ".row::after"
+      +      "selector": ".row"
+           },
+           {
+             "raws": {
+               "before": "\n\n",
                    "input": {
                      "file": "grid.css"
                    }
@@ -347,7 +499,7 @@
                    }
                  ],
       
-  
+      at Context.<anonymous> (test/components.js:23:30)
 
   5) Bootstrap v4 PostCSS component: input-group:
 
@@ -374,7 +526,7 @@
              "raws": {
                "before": "\n\n",
       
-  
+      at Context.<anonymous> (test/components.js:23:30)
 
   6) Bootstrap v4 PostCSS component: popover:
 
@@ -391,7 +543,7 @@
                  "raws": {
                    "before": "\n  ",
       
-  
+      at Context.<anonymous> (test/components.js:23:30)
 
 
 
