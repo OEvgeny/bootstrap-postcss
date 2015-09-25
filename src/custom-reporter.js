@@ -47,7 +47,10 @@ module.exports = function(runner) {
 
   runner.on('fail', function(test) {
     base.cursor.CR();
-    test.err.message = ''
+
+    test.err.stack = ''
+    test.err.message = 'Not matches:'
+
     console.log(base.color('fail', '  %d) %s'), ++n, test.title);
   });
 
