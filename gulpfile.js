@@ -75,22 +75,6 @@ gulp.task('postcss', function() {
     .pipe($.replace(/\#\{\$?([0-9a-z\-]+)\}/ig, "$$($1)"))
     // Fix called functions syntax #{function()} => function()
     .pipe($.replace(/\#\{([\(\)\$0-9a-z\-\"\"\'\']+)\}/ig, "$1"))
-    // Add ';' at end for @content and @include: @content => @content;
-    .pipe($.replace(/(@content|@include)(.*)/g, function(str, word) {
-      var pos = str.indexOf(word) + word.length
-      var colonPos = str.length //Pos colon at the end by default
-      for (var i = str.length - 1; i >= pos; i--) {
-        if (str[i] == ';')
-          return str
-        if (str[i] == '}')
-          colonPos = i
-        if (str[i] == '{' && str[colonPos] != '}') {
-          return str
-        }
-      }
-      var str = colonPos == str.length ? str + ';' : str.substr(0, colonPos) + ';' + str.substr(colonPos, str.length)
-      return str
-    }))
     // Replace 0\0 => 0 \0 - sass doing it...
     .pipe($.replace('0\\0', '0 \\0'))
     // Remove !default from variable definitions since it's not supported

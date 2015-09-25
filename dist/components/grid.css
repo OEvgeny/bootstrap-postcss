@@ -2,18 +2,6 @@
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-}
-
-.container-fluid::after,
-.container::after,
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.container,
-.container-fluid {
   padding-left: .9375rem;
   padding-right: .9375rem;
 }
@@ -21,6 +9,12 @@
 .row {
   margin-left: -.9375rem;
   margin-right: -.9375rem;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .col-lg-1,
