@@ -1,6 +1,5 @@
 {
   "name": "bootstrap-postcss",
-  "private": true,
   "version": "0.0.1",
   "description": "Bootstrap 4 built with postcss",
   "main": "index.js",
@@ -15,7 +14,7 @@
     "autoprefixer": "^6.0.3",
     "chai": "^3.3.0",
     "color": "^0.10.1",
-    "cssfmt": "^1.3.5",
+    "cssfmt": "^1.3.6",
     "gulp": "^3.9.0",
     "gulp-insert": "^0.5.0",
     "gulp-load-plugins": "^1.0.0-rc.1",
