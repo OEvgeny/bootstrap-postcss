@@ -52,7 +52,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(max-width: 33.9em)",
+      "params": "(max-width: 543px)",
       "nodes": [
         {
           "raws": {
@@ -103,7 +103,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(min-width: 34em)",
+      "params": "(min-width: 544px)",
       "nodes": [
         {
           "raws": {
@@ -154,7 +154,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(max-width: 47.9em)",
+      "params": "(max-width: 767px)",
       "nodes": [
         {
           "raws": {
@@ -205,7 +205,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(min-width: 48em)",
+      "params": "(min-width: 768px)",
       "nodes": [
         {
           "raws": {
@@ -256,7 +256,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(max-width: 61.9em)",
+      "params": "(max-width: 991px)",
       "nodes": [
         {
           "raws": {
@@ -307,7 +307,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(min-width: 62em)",
+      "params": "(min-width: 992px)",
       "nodes": [
         {
           "raws": {
@@ -358,7 +358,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(max-width: 74.9em)",
+      "params": "(max-width: 1199px)",
       "nodes": [
         {
           "raws": {
@@ -409,7 +409,7 @@
           "file": "utilities-responsive.css"
         }
       },
-      "params": "(min-width: 75em)",
+      "params": "(min-width: 1200px)",
       "nodes": [
         {
           "raws": {

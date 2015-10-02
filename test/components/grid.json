@@ -1899,7 +1899,7 @@
           "file": "grid.css"
         }
       },
-      "params": "(min-width: 34em)",
+      "params": "(min-width: 544px)",
       "nodes": [
         {
           "raws": {
@@ -1922,7 +1922,7 @@
                 }
               },
               "prop": "max-width",
-              "value": "34rem"
+              "value": "6in"
             }
           ],
           "source": {
@@ -3561,7 +3561,7 @@
           "file": "grid.css"
         }
       },
-      "params": "(min-width: 48em)",
+      "params": "(min-width: 768px)",
       "nodes": [
         {
           "raws": {
@@ -3584,7 +3584,7 @@
                 }
               },
               "prop": "max-width",
-              "value": "45rem"
+              "value": "45pc"
             }
           ],
           "source": {
@@ -5223,7 +5223,7 @@
           "file": "grid.css"
         }
       },
-      "params": "(min-width: 62em)",
+      "params": "(min-width: 992px)",
       "nodes": [
         {
           "raws": {
@@ -5246,7 +5246,7 @@
                 }
               },
               "prop": "max-width",
-              "value": "60rem"
+              "value": "940px"
             }
           ],
           "source": {
@@ -6885,7 +6885,7 @@
           "file": "grid.css"
         }
       },
-      "params": "(min-width: 75em)",
+      "params": "(min-width: 1200px)",
       "nodes": [
         {
           "raws": {
@@ -6908,7 +6908,7 @@
                 }
               },
               "prop": "max-width",
-              "value": "72.25rem"
+              "value": "855pt"
             }
           ],
           "source": {

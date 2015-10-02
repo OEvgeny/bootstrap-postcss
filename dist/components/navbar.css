@@ -50,7 +50,7 @@
   width: 100%;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .navbar {
     border-radius: .25rem;
   }
@@ -97,19 +97,19 @@
   border-radius: .25rem;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .navbar-toggleable-xs {
     display: block !important;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .navbar-toggleable-sm {
     display: block !important;
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 992px) {
   .navbar-toggleable-md {
     display: block !important;
   }

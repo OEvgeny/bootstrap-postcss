@@ -1217,7 +1217,7 @@
           "file": "modal.css"
         }
       },
-      "params": "(min-width: 34em)",
+      "params": "(min-width: 544px)",
       "nodes": [
         {
           "raws": {
@@ -1312,7 +1312,7 @@
           "file": "modal.css"
         }
       },
-      "params": "(min-width: 48em)",
+      "params": "(min-width: 768px)",
       "nodes": [
         {
           "raws": {

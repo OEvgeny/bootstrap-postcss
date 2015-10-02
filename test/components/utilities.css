@@ -93,7 +93,7 @@
   text-align: center;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .text-sm-left {
     text-align: left;
   }
@@ -107,7 +107,7 @@
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .text-md-left {
     text-align: left;
   }
@@ -121,7 +121,7 @@
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 992px) {
   .text-lg-left {
     text-align: left;
   }
@@ -135,7 +135,7 @@
   }
 }
 
-@media (min-width: 75em) {
+@media (min-width: 1200px) {
   .text-xl-left {
     text-align: left;
   }

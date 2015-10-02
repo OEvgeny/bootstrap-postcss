@@ -43,7 +43,7 @@
     ✓ component: utilities
 
 
-  30 passing (515ms)
+  30 passing (559ms)
   6 failing
 
   1) Bootstrap v4 PostCSS component: alert:

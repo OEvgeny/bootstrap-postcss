@@ -124,7 +124,7 @@
   overflow: scroll;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -135,7 +135,7 @@
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .modal-lg {
     width: 900px;
   }

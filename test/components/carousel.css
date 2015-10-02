@@ -214,7 +214,7 @@
   text-shadow: none;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .carousel-control .icon-next,
   .carousel-control .icon-prev {
     width: 30px;

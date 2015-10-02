@@ -287,9 +287,9 @@
   margin-left: 100%;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .container {
-    max-width: 34rem;
+    max-width: 6in;
   }
 
   .col-sm-1 {
@@ -497,9 +497,9 @@
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .container {
-    max-width: 45rem;
+    max-width: 45pc;
   }
 
   .col-md-1 {
@@ -707,9 +707,9 @@
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 992px) {
   .container {
-    max-width: 60rem;
+    max-width: 940px;
   }
 
   .col-lg-1 {
@@ -917,9 +917,9 @@
   }
 }
 
-@media (min-width: 75em) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 72.25rem;
+    max-width: 855pt;
   }
 
   .col-xl-1 {

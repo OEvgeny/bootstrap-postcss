@@ -875,7 +875,7 @@
           "file": "utilities.css"
         }
       },
-      "params": "(min-width: 34em)",
+      "params": "(min-width: 544px)",
       "nodes": [
         {
           "raws": {
@@ -987,7 +987,7 @@
           "file": "utilities.css"
         }
       },
-      "params": "(min-width: 48em)",
+      "params": "(min-width: 768px)",
       "nodes": [
         {
           "raws": {
@@ -1099,7 +1099,7 @@
           "file": "utilities.css"
         }
       },
-      "params": "(min-width: 62em)",
+      "params": "(min-width: 992px)",
       "nodes": [
         {
           "raws": {
@@ -1211,7 +1211,7 @@
           "file": "utilities.css"
         }
       },
-      "params": "(min-width: 75em)",
+      "params": "(min-width: 1200px)",
       "nodes": [
         {
           "raws": {

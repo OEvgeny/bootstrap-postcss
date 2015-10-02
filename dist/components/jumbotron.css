@@ -9,7 +9,7 @@
   border-top-color: #d0d5d8;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 544px) {
   .jumbotron {
     padding: 4rem 2rem;
   }

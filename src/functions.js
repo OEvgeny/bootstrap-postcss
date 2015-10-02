@@ -53,7 +53,7 @@ function breakpointNext($name, $breakpoints, $breakpointNames) {
 
 function breakpointMax($name, $breakpoints) {
   var next = breakpointNext($name, $breakpoints)
-  return next ? calc('calc(' + breakpointMin(next, $breakpoints) + ' - 0.1)') : false
+  return next ? calc('calc(' + breakpointMin(next, $breakpoints) + ' - 1)') : false
 }
 
 function breakpointMin($name, $breakpoints) {
