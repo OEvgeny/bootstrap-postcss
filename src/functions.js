@@ -37,7 +37,7 @@ function mapToHash(map) {
 }
 
 function getMapKeys() {
-  parseMap(map).index
+  return parseMap(map).index
 }
 
 /*
@@ -90,12 +90,12 @@ function safeEval(exp) {
 
 module.exports = {
   // Inline if Implementation. Need to be reworked.
-  'if': function(exp, trueVal, falseVal) {
+  if: function(exp, trueVal, falseVal) {
     var res = safeEval(exp)
     return res && res != exp ? trueVal : falseVal
   },
   // SASS functions
-  'percentage': function(exp) {
+  percentage: function(exp) {
     return (Number(safeEval(exp)) * 100).toFixed(5) + '%'
   },
   lighten: function(color, amount) {
@@ -120,7 +120,7 @@ module.exports = {
     var color = one(str)
     return color.alpha() >= 1 ? color.hex().toLowerCase() : str
   },
-  "ie-hex-str": function(color) {
+  'ie-hex-str': function(color) {
     var c = one(color)
     function hexColor() {
       var res = ''
