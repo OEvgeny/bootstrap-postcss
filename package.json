@@ -32,7 +32,6 @@
     "postcss-each": "^0.7.0",
     "postcss-for": "^2.0.0",
     "postcss-functions": "^1.0.0",
-    "postcss-mixins": "^1.0.1",
     "postcss-nested": "^1.0.0",
     "postcss-partial-import": "^1.2.0",
     "postcss-sass-extend": "0.0.1",
