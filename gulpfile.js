@@ -75,8 +75,6 @@ gulp.task('postcss', function() {
     .pipe($.replace(/\#\{\$?([0-9a-z\-]+)\}/ig, "$$($1)"))
     // Fix called functions syntax #{function()} => function()
     .pipe($.replace(/\#\{([\(\)\$0-9a-z\-\"\"\'\']+)\}/ig, "$1"))
-    // Replace 0\0 => 0 \0 - sass doing it...
-    .pipe($.replace('0\\0', '0 \\0'))
     // Remove !default from variable definitions since it's not supported
     .pipe($.replace(' !default', ''))
     // Strip comments (or switch type - commented)

@@ -63,7 +63,7 @@
   border-bottom-right-radius: .25rem;
 }
 
-@media screen and (min-width: 0 \0) {
+@media screen and (min-width: 0\0) {
   .progress {
     background-color: #eee;
     border-radius: .25rem;
@@ -120,7 +120,7 @@
   background-color: #5cb85c;
 }
 
-@media screen and (min-width: 0 \0) {
+@media screen and (min-width: 0\0) {
   .progress-bar-striped {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -160,7 +160,7 @@
   background-color: #f0ad4e;
 }
 
-@media screen and (min-width: 0 \0) {
+@media screen and (min-width: 0\0) {
   .progress-warning .progress-bar {
     background-color: #f0ad4e;
   }

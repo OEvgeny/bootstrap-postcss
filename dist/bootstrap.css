@@ -3945,7 +3945,7 @@ a.label:focus,
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress {
         background-color: #eee;
         border-radius: .25rem;
@@ -3979,7 +3979,7 @@ a.label:focus,
     background-image: linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
     background-size: 1rem 1rem;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress-bar-striped {
         background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
         background-image: -o-linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
@@ -3995,7 +3995,7 @@ a.label:focus,
 .progress-animated[value]::-moz-progress-bar {
     animation: progress-bar-stripes 2s linear infinite;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress-animated .progress-bar-striped {
         -webkit-animation: progress-bar-stripes 2s linear infinite;
              -o-animation: progress-bar-stripes 2s linear infinite;
@@ -4008,7 +4008,7 @@ a.label:focus,
 .progress-success[value]::-moz-progress-bar {
     background-color: #5cb85c;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress-success .progress-bar {
         background-color: #5cb85c;
     }
@@ -4019,7 +4019,7 @@ a.label:focus,
 .progress-info[value]::-moz-progress-bar {
     background-color: #5bc0de;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress-info .progress-bar {
         background-color: #5bc0de;
     }
@@ -4030,7 +4030,7 @@ a.label:focus,
 .progress-warning[value]::-moz-progress-bar {
     background-color: #f0ad4e;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress-warning .progress-bar {
         background-color: #f0ad4e;
     }
@@ -4041,7 +4041,7 @@ a.label:focus,
 .progress-danger[value]::-moz-progress-bar {
     background-color: #d9534f;
 }
-@media screen and (min-width:0 \0) {
+@media screen and (min-width:0\0) {
     .progress-danger .progress-bar {
         background-color: #d9534f;
     }

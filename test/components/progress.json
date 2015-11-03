@@ -603,7 +603,7 @@
           "file": "progress.css"
         }
       },
-      "params": "screen and (min-width: 0 \\0)",
+      "params": "screen and (min-width: 0\\0)",
       "nodes": [
         {
           "raws": {
@@ -1142,7 +1142,7 @@
           "file": "progress.css"
         }
       },
-      "params": "screen and (min-width: 0 \\0)",
+      "params": "screen and (min-width: 0\\0)",
       "nodes": [
         {
           "raws": {
@@ -1493,7 +1493,7 @@
           "file": "progress.css"
         }
       },
-      "params": "screen and (min-width: 0 \\0)",
+      "params": "screen and (min-width: 0\\0)",
       "nodes": [
         {
           "raws": {
