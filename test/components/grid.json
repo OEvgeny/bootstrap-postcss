@@ -25,7 +25,7 @@
               "file": "grid.css"
             }
           },
-          "prop": "margin-right",
+          "prop": "margin-left",
           "value": "auto"
         },
         {
@@ -39,7 +39,7 @@
               "file": "grid.css"
             }
           },
-          "prop": "margin-left",
+          "prop": "margin-right",
           "value": "auto"
         }
       ],

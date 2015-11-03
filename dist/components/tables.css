@@ -114,6 +114,7 @@
 .table-responsive {
   display: block;
   width: 100%;
+  min-height: .01%;
   overflow-x: auto;
 }
 

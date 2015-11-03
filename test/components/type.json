@@ -214,7 +214,7 @@
           "file": "type.css"
         }
       },
-      "selector": ".h2,\nh2"
+      "selector": "h2"
     },
     {
       "raws": {
@@ -245,7 +245,7 @@
           "file": "type.css"
         }
       },
-      "selector": ".h3,\nh3"
+      "selector": "h3"
     },
     {
       "raws": {
@@ -276,7 +276,7 @@
           "file": "type.css"
         }
       },
-      "selector": ".h4,\nh4"
+      "selector": "h4"
     },
     {
       "raws": {
@@ -307,7 +307,7 @@
           "file": "type.css"
         }
       },
-      "selector": ".h5,\nh5"
+      "selector": "h5"
     },
     {
       "raws": {
@@ -338,7 +338,162 @@
           "file": "type.css"
         }
       },
-      "selector": ".h6,\nh6"
+      "selector": "h6"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "type.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "2rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "type.css"
+        }
+      },
+      "selector": ".h2"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "type.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.75rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "type.css"
+        }
+      },
+      "selector": ".h3"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "type.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.5rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "type.css"
+        }
+      },
+      "selector": ".h4"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "type.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1.25rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "type.css"
+        }
+      },
+      "selector": ".h5"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "type.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "1rem"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "type.css"
+        }
+      },
+      "selector": ".h6"
     },
     {
       "raws": {

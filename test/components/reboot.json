@@ -1041,6 +1041,20 @@
           },
           "prop": "line-height",
           "value": "inherit"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "border-radius",
+          "value": "0"
         }
       ],
       "source": {

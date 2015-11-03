@@ -757,6 +757,20 @@
               "file": "tables.css"
             }
           },
+          "prop": "min-height",
+          "value": ".01%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "tables.css"
+            }
+          },
           "prop": "overflow-x",
           "value": "auto"
         }

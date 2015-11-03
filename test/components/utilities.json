@@ -25,37 +25,6 @@
               "file": "utilities.css"
             }
           },
-          "prop": "white-space",
-          "value": "nowrap"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".text-nowrap,\n.text-truncate"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
           "prop": "content",
           "value": "\"\""
         },
@@ -619,6 +588,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "left"
         }
       ],
@@ -650,6 +620,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "right"
         }
       ],
@@ -681,6 +652,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "center"
         }
       ],
@@ -712,6 +684,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "justify"
         }
       ],
@@ -721,6 +694,38 @@
         }
       },
       "selector": ".text-justify"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "prop": "white-space",
+          "important": true,
+          "value": "nowrap"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities.css"
+        }
+      },
+      "selector": ".text-nowrap"
     },
     {
       "raws": {
@@ -758,6 +763,20 @@
           },
           "prop": "text-overflow",
           "value": "ellipsis"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "prop": "white-space",
+          "value": "nowrap"
         }
       ],
       "source": {
@@ -1741,462 +1760,6 @@
         }
       },
       "selector": "a.text-danger:focus,\na.text-danger:hover"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "color",
-          "value": "#eceeef"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#373a3c"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-inverse"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#f7f7f9"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-faded"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "color",
-          "value": "#fff"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#0275d8"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-primary"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#025aa5"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": "a.bg-primary:focus,\na.bg-primary:hover"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "color",
-          "value": "#fff"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#5cb85c"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-success"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#449d44"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": "a.bg-success:focus,\na.bg-success:hover"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "color",
-          "value": "#fff"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#5bc0de"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-info"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#31b0d5"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": "a.bg-info:focus,\na.bg-info:hover"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "color",
-          "value": "#fff"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#f0ad4e"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-warning"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#ec971f"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": "a.bg-warning:focus,\na.bg-warning:hover"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "color",
-          "value": "#fff"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#d9534f"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".bg-danger"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "background-color",
-          "value": "#c9302c"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": "a.bg-danger:focus,\na.bg-danger:hover"
     }
   ],
   "source": {
