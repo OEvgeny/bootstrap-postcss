@@ -259,7 +259,7 @@ gulp.task('test', function() {
  * Update bootstrap
  */
 gulp.task('update', function(done) {
-  sequence(['bootstrap', 'postcss', 'components-sass'], 'components', 'cases', done)
+  sequence(['postcss', 'components-sass'], ['bootstrap', 'components'], 'cases', done)
 })
 
 gulp.task('default', ['bootstrap'])
