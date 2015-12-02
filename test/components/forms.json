@@ -478,7 +478,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".has-success .checkbox,\n.has-success .checkbox-inline,\n.has-success .form-control-feedback,\n.has-success .form-control-label,\n.has-success .help-block,\n.has-success .radio,\n.has-success .radio-inline,\n.has-success.checkbox label,\n.has-success.checkbox-inline label,\n.has-success.radio label,\n.has-success.radio-inline label"
+      "selector": ".has-success .checkbox,\n.has-success .checkbox-inline,\n.has-success .form-control-feedback,\n.has-success .form-control-label,\n.has-success .radio,\n.has-success .radio-inline,\n.has-success .text-help,\n.has-success.checkbox label,\n.has-success.checkbox-inline label,\n.has-success.radio label,\n.has-success.radio-inline label"
     },
     {
       "raws": {
@@ -670,7 +670,7 @@
                 }
               },
               "prop": "line-height",
-              "value": "1.825rem"
+              "value": "1.8625rem"
             }
           ],
           "source": {
@@ -866,7 +866,7 @@
             }
           },
           "prop": "font-size",
-          "value": ".85rem"
+          "value": ".875rem"
         },
         {
           "raws": {
@@ -1481,7 +1481,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".form-control-error,\n.form-control-success,\n.form-control-warning"
+      "selector": ".form-control-danger,\n.form-control-success,\n.form-control-warning"
     },
     {
       "raws": {
@@ -1602,7 +1602,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".has-warning .checkbox,\n.has-warning .checkbox-inline,\n.has-warning .form-control-feedback,\n.has-warning .form-control-label,\n.has-warning .help-block,\n.has-warning .radio,\n.has-warning .radio-inline,\n.has-warning.checkbox label,\n.has-warning.checkbox-inline label,\n.has-warning.radio label,\n.has-warning.radio-inline label"
+      "selector": ".has-warning .checkbox,\n.has-warning .checkbox-inline,\n.has-warning .form-control-feedback,\n.has-warning .form-control-label,\n.has-warning .radio,\n.has-warning .radio-inline,\n.has-warning .text-help,\n.has-warning.checkbox label,\n.has-warning.checkbox-inline label,\n.has-warning.radio label,\n.has-warning.radio-inline label"
     },
     {
       "raws": {
@@ -1625,7 +1625,7 @@
             }
           },
           "prop": "background-image",
-          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNoZWNrIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM1Q0I4NUMiIGQ9Ik0yMzMuOCw2MTAuMWMtMTMuMywwLTI1LjktNi4yLTM0LTE2LjlMOTAuNSw0NDguOEM3Ni4zLDQzMCw4MCw0MDMuMyw5OC44LDM4OS4xYzE4LjgtMTQuMyw0NS41LTEwLjUsNTkuOCw4LjNsNzEuOSw5NWwyMjAuOS0yNTAuNWMxMi41LTIwLDM4LjgtMjYuMSw1OC44LTEzLjZjMjAsMTIuNCwyNi4xLDM4LjcsMTMuNiw1OC44TDI3MCw1OTBjLTcuNCwxMi0yMC4yLDE5LjQtMzQuMywyMC4xQzIzNS4xLDYxMC4xLDIzNC41LDYxMC4xLDIzMy44LDYxMC4xeiIvPjwvc3ZnPg==)"
+          "value": "url(data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MTIgNzkyIj48cGF0aCBmaWxsPSIjNWNiODVjIiBkPSJNMjMzLjggNjEwYy0xMy4zIDAtMjYtNi0zNC0xNi44TDkwLjUgNDQ4LjhDNzYuMyA0MzAgODAgNDAzLjMgOTguOCAzODljMTguOC0xNC4yIDQ1LjUtMTAuNCA1OS44IDguNGw3MiA5NUw0NTEuMyAyNDJjMTIuNS0yMCAzOC44LTI2LjIgNTguOC0xMy43IDIwIDEyLjQgMjYgMzguNyAxMy43IDU4LjhMMjcwIDU5MGMtNy40IDEyLTIwLjIgMTkuNC0zNC4zIDIwaC0yeiIvPjwvc3ZnPg==)"
         }
       ],
       "source": {
@@ -1754,7 +1754,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".has-error .checkbox,\n.has-error .checkbox-inline,\n.has-error .form-control-feedback,\n.has-error .form-control-label,\n.has-error .help-block,\n.has-error .radio,\n.has-error .radio-inline,\n.has-error.checkbox label,\n.has-error.checkbox-inline label,\n.has-error.radio label,\n.has-error.radio-inline label"
+      "selector": ".has-danger .checkbox,\n.has-danger .checkbox-inline,\n.has-danger .form-control-feedback,\n.has-danger .form-control-label,\n.has-danger .radio,\n.has-danger .radio-inline,\n.has-danger .text-help,\n.has-danger.checkbox label,\n.has-danger.checkbox-inline label,\n.has-danger.radio label,\n.has-danger.radio-inline label"
     },
     {
       "raws": {
@@ -1777,7 +1777,7 @@
             }
           },
           "prop": "background-image",
-          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9Ildhcm5pbmciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjEyIDc5MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjEyIDc5MiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iI0YwQUQ0RSIgZD0iTTYwMyw2NDAuMmwtMjc4LjUtNTA5Yy0zLjgtNi42LTEwLjgtMTAuNi0xOC41LTEwLjZzLTE0LjcsNC4xLTE4LjUsMTAuNkw5LDY0MC4yYy0zLjcsNi41LTMuNiwxNC40LDAuMiwyMC44YzMuOCw2LjUsMTAuOCwxMC40LDE4LjMsMTAuNGg1NTcuMWM3LjUsMCwxNC41LTMuOSwxOC4zLTEwLjRDNjA2LjYsNjU0LjYsNjA2LjcsNjQ2LjYsNjAzLDY0MC4yeiBNMzM2LjYsNjEwLjJoLTYxLjJWNTQ5aDYxLjJWNjEwLjJ6IE0zMzYuNiw1MDMuMWgtNjEuMlYzMDQuMmg2MS4yVjUwMy4xeiIvPjwvc3ZnPg==)"
+          "value": "url(data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MTIgNzkyIj48cGF0aCBmaWxsPSIjZjBhZDRlIiBkPSJNNjAzIDY0MC4ybC0yNzguNS01MDljLTMuOC02LjYtMTAuOC0xMC42LTE4LjUtMTAuNnMtMTQuNyA0LTE4LjUgMTAuNkw5IDY0MC4yYy0zLjcgNi41LTMuNiAxNC40LjIgMjAuOCAzLjggNi41IDEwLjggMTAuNCAxOC4zIDEwLjRoNTU3YzcuNiAwIDE0LjYtNCAxOC40LTEwLjQgMy41LTYuNCAzLjYtMTQuNCAwLTIwLjh6bS0yNjYuNC0zMGgtNjEuMlY1NDloNjEuMnY2MS4yem0wLTEwN2gtNjEuMlYzMDRoNjEuMnYxOTl6Ii8+PC9zdmc+)"
         }
       ],
       "source": {
@@ -1816,7 +1816,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".has-error .form-control"
+      "selector": ".has-danger .form-control"
     },
     {
       "raws": {
@@ -1875,7 +1875,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".has-error .input-group-addon"
+      "selector": ".has-danger .input-group-addon"
     },
     {
       "raws": {
@@ -1898,7 +1898,7 @@
             }
           },
           "prop": "background-image",
-          "value": "url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNyb3NzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNEOTUzNEYiIGQ9Ik00NDcsNTQ0LjRjLTE0LjQsMTQuNC0zNy42LDE0LjQtNTEuOSwwTDMwNiw0NTEuN2wtODkuMSw5Mi43Yy0xNC40LDE0LjQtMzcuNiwxNC40LTUxLjksMGMtMTQuNC0xNC40LTE0LjQtMzcuNiwwLTUxLjlsOTIuNC05Ni40TDE2NSwyOTkuNmMtMTQuNC0xNC40LTE0LjQtMzcuNiwwLTUxLjlzMzcuNi0xNC40LDUxLjksMGw4OS4yLDkyLjdsODkuMS05Mi43YzE0LjQtMTQuNCwzNy42LTE0LjQsNTEuOSwwYzE0LjQsMTQuNCwxNC40LDM3LjYsMCw1MS45TDM1NC43LDM5Nmw5Mi40LDk2LjRDNDYxLjQsNTA2LjgsNDYxLjQsNTMwLDQ0Nyw1NDQuNHoiLz48L3N2Zz4=)"
+          "value": "url(data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MTIgNzkyIj48cGF0aCBmaWxsPSIjZDk1MzRmIiBkPSJNNDQ3IDU0NC40Yy0xNC40IDE0LjQtMzcuNiAxNC40LTUyIDBsLTg5LTkyLjctODkgOTIuN2MtMTQuNSAxNC40LTM3LjcgMTQuNC01MiAwLTE0LjQtMTQuNC0xNC40LTM3LjYgMC01Mmw5Mi40LTk2LjMtOTIuNC05Ni4zYy0xNC40LTE0LjQtMTQuNC0zNy42IDAtNTJzMzcuNi0xNC4zIDUyIDBsODkgOTIuOCA4OS4yLTkyLjdjMTQuNC0xNC40IDM3LjYtMTQuNCA1MiAwIDE0LjMgMTQuNCAxNC4zIDM3LjYgMCA1MkwzNTQuNiAzOTZsOTIuNCA5Ni40YzE0LjQgMTQuNCAxNC40IDM3LjYgMCA1MnoiLz48L3N2Zz4=)"
         }
       ],
       "source": {
@@ -1906,7 +1906,7 @@
           "file": "forms.css"
         }
       },
-      "selector": ".has-error .form-control-error"
+      "selector": ".has-danger .form-control-danger"
     },
     {
       "raws": {

@@ -188,6 +188,37 @@
               "file": "input-group.css"
             }
           },
+          "prop": "z-index",
+          "value": "3"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group .form-control:active,\n.input-group .form-control:focus,\n.input-group .form-control:hover,\n.input-group-btn > .btn:active,\n.input-group-btn > .btn:focus,\n.input-group-btn > .btn:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
           "prop": "display",
           "value": "table-cell"
         }
@@ -467,7 +498,7 @@
             }
           },
           "prop": "font-size",
-          "value": ".85rem"
+          "value": ".875rem"
         },
         {
           "raws": {
@@ -829,37 +860,6 @@
               "file": "input-group.css"
             }
           },
-          "prop": "z-index",
-          "value": "2"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "input-group.css"
-        }
-      },
-      "selector": ".input-group-btn > .btn:active,\n.input-group-btn > .btn:focus,\n.input-group-btn > .btn:hover"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "input-group.css"
-            }
-          },
           "prop": "margin-right",
           "value": "-1px"
         }
@@ -915,6 +915,37 @@
         }
       },
       "selector": ".input-group-btn:last-child > .btn,\n.input-group-btn:last-child > .btn-group"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "input-group.css"
+            }
+          },
+          "prop": "z-index",
+          "value": "3"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "input-group.css"
+        }
+      },
+      "selector": ".input-group-btn:last-child > .btn-group:active,\n.input-group-btn:last-child > .btn-group:focus,\n.input-group-btn:last-child > .btn-group:hover,\n.input-group-btn:last-child > .btn:active,\n.input-group-btn:last-child > .btn:focus,\n.input-group-btn:last-child > .btn:hover"
     }
   ],
   "source": {

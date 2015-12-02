@@ -28,7 +28,7 @@ output {
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 1pc;
+  font-size: 16px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -127,6 +127,19 @@ img {
   cursor: pointer;
 }
 
+[role=button],
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 table {
   background-color: transparent;
 }
@@ -169,4 +182,8 @@ input[type=search] {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
   -webkit-appearance: none;
+}
+
+[hidden] {
+  display: none !important;
 }

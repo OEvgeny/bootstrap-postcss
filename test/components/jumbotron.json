@@ -82,37 +82,6 @@
       "raws": {
         "before": "\n\n",
         "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "jumbotron.css"
-            }
-          },
-          "prop": "border-top-color",
-          "value": "#d0d5d8"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "jumbotron.css"
-        }
-      },
-      "selector": ".jumbotron-hr"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
         "afterName": " ",
         "semicolon": false,
         "after": "\n"
@@ -158,6 +127,37 @@
           "selector": ".jumbotron"
         }
       ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "jumbotron.css"
+            }
+          },
+          "prop": "border-top-color",
+          "value": "#d0d5d8"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "jumbotron.css"
+        }
+      },
+      "selector": ".jumbotron-hr"
     },
     {
       "raws": {

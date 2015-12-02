@@ -129,6 +129,20 @@
               "file": "dropdown.css"
             }
           },
+          "prop": "margin-right",
+          "value": ".25rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
           "prop": "margin-left",
           "value": ".25rem"
         },
@@ -360,7 +374,7 @@
             }
           },
           "prop": "min-width",
-          "value": "10pc"
+          "value": "160px"
         },
         {
           "raws": {
@@ -403,6 +417,20 @@
           },
           "prop": "font-size",
           "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "dropdown.css"
+            }
+          },
+          "prop": "color",
+          "value": "#373a3c"
         },
         {
           "raws": {
@@ -1163,7 +1191,7 @@
             }
           },
           "prop": "font-size",
-          "value": ".85rem"
+          "value": ".875rem"
         },
         {
           "raws": {

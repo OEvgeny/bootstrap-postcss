@@ -617,7 +617,7 @@
             }
           },
           "prop": "padding-right",
-          "value": "9pt"
+          "value": "12px"
         },
         {
           "raws": {
@@ -631,7 +631,7 @@
             }
           },
           "prop": "padding-left",
-          "value": "9pt"
+          "value": "12px"
         }
       ],
       "source": {

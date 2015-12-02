@@ -8,6 +8,11 @@
   display: block;
 }
 
+.figure,
+.img-thumbnail {
+  display: inline-block;
+}
+
 .img-rounded {
   border-radius: .3rem;
 }
@@ -21,9 +26,18 @@
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  display: inline-block;
 }
 
 .img-circle {
   border-radius: 50%;
+}
+
+.figure-img {
+  margin-bottom: .5rem;
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: #818a91;
 }

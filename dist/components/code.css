@@ -6,12 +6,6 @@ kbd {
 
 code,
 kbd,
-pre {
-  font-size: 90%;
-}
-
-code,
-kbd,
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -39,6 +33,7 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 90%;
   line-height: 1.5;
   color: #373a3c;
 }

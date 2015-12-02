@@ -145,7 +145,7 @@
           },
           "prop": "float",
           "important": true,
-          "value": "right"
+          "value": "left"
         }
       ],
       "source": {
@@ -153,7 +153,7 @@
           "file": "utilities.css"
         }
       },
-      "selector": ".pull-right"
+      "selector": ".pull-xs-left"
     },
     {
       "raws": {
@@ -177,7 +177,7 @@
           },
           "prop": "float",
           "important": true,
-          "value": "left"
+          "value": "right"
         }
       ],
       "source": {
@@ -185,7 +185,39 @@
           "file": "utilities.css"
         }
       },
-      "selector": ".pull-left"
+      "selector": ".pull-xs-right"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "prop": "float",
+          "important": true,
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "utilities.css"
+        }
+      },
+      "selector": ".pull-xs-none"
     },
     {
       "raws": {
@@ -437,39 +469,8 @@
               "file": "utilities.css"
             }
           },
-          "prop": "display",
-          "important": true,
-          "value": "none"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": "[hidden]"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
           "prop": "visibility",
+          "important": true,
           "value": "hidden"
         }
       ],
@@ -566,102 +567,6 @@
         }
       },
       "selector": ".text-hide"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "text-align",
-          "important": true,
-          "value": "left"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".text-left"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "text-align",
-          "important": true,
-          "value": "right"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".text-right"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "utilities.css"
-            }
-          },
-          "prop": "text-align",
-          "important": true,
-          "value": "center"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "utilities.css"
-        }
-      },
-      "selector": ".text-center"
     },
     {
       "raws": {
@@ -807,6 +712,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "left"
         }
       ],
@@ -838,6 +744,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "right"
         }
       ],
@@ -869,6 +776,7 @@
             }
           },
           "prop": "text-align",
+          "important": true,
           "value": "center"
         }
       ],
@@ -916,7 +824,104 @@
                   "file": "utilities.css"
                 }
               },
+              "prop": "float",
+              "important": true,
+              "value": "left"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-sm-left"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "right"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-sm-right"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-sm-none"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
               "prop": "text-align",
+              "important": true,
               "value": "left"
             }
           ],
@@ -948,6 +953,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "right"
             }
           ],
@@ -979,6 +985,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "center"
             }
           ],
@@ -1028,7 +1035,104 @@
                   "file": "utilities.css"
                 }
               },
+              "prop": "float",
+              "important": true,
+              "value": "left"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-md-left"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "right"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-md-right"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-md-none"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
               "prop": "text-align",
+              "important": true,
               "value": "left"
             }
           ],
@@ -1060,6 +1164,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "right"
             }
           ],
@@ -1091,6 +1196,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "center"
             }
           ],
@@ -1140,7 +1246,104 @@
                   "file": "utilities.css"
                 }
               },
+              "prop": "float",
+              "important": true,
+              "value": "left"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-lg-left"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "right"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-lg-right"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-lg-none"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
               "prop": "text-align",
+              "important": true,
               "value": "left"
             }
           ],
@@ -1172,6 +1375,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "right"
             }
           ],
@@ -1203,6 +1407,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "center"
             }
           ],
@@ -1252,7 +1457,104 @@
                   "file": "utilities.css"
                 }
               },
+              "prop": "float",
+              "important": true,
+              "value": "left"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-xl-left"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "right"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-xl-right"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
+              "prop": "float",
+              "important": true,
+              "value": "none"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "utilities.css"
+            }
+          },
+          "selector": ".pull-xl-none"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "utilities.css"
+                }
+              },
               "prop": "text-align",
+              "important": true,
               "value": "left"
             }
           ],
@@ -1284,6 +1586,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "right"
             }
           ],
@@ -1315,6 +1618,7 @@
                 }
               },
               "prop": "text-align",
+              "important": true,
               "value": "center"
             }
           ],
@@ -1348,6 +1652,7 @@
             }
           },
           "prop": "text-transform",
+          "important": true,
           "value": "lowercase"
         }
       ],
@@ -1379,6 +1684,7 @@
             }
           },
           "prop": "text-transform",
+          "important": true,
           "value": "uppercase"
         }
       ],
@@ -1410,6 +1716,7 @@
             }
           },
           "prop": "text-transform",
+          "important": true,
           "value": "capitalize"
         }
       ],
@@ -1472,6 +1779,7 @@
             }
           },
           "prop": "color",
+          "important": true,
           "value": "#0275d8"
         }
       ],
@@ -1534,6 +1842,7 @@
             }
           },
           "prop": "color",
+          "important": true,
           "value": "#5cb85c"
         }
       ],
@@ -1596,6 +1905,7 @@
             }
           },
           "prop": "color",
+          "important": true,
           "value": "#5bc0de"
         }
       ],
@@ -1658,6 +1968,7 @@
             }
           },
           "prop": "color",
+          "important": true,
           "value": "#f0ad4e"
         }
       ],
@@ -1720,6 +2031,7 @@
             }
           },
           "prop": "color",
+          "important": true,
           "value": "#d9534f"
         }
       ],

@@ -31,3 +31,7 @@
 .embed-responsive-4by3 {
   padding-bottom: 75%;
 }
+
+.embed-responsive-1by1 {
+  padding-bottom: 100%;
+}

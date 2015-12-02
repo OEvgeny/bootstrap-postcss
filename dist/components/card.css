@@ -5,6 +5,7 @@
 
 .card {
   position: relative;
+  display: block;
   background-color: #fff;
   border: .0625rem solid #e5e5e5;
   border-radius: .25rem;
@@ -88,7 +89,7 @@
 
 .card-inverse .card-footer,
 .card-inverse .card-header {
-  border-bottom: .075rem solid rgba(255, 255, 255, .2);
+  border-bottom: .0625rem solid rgba(255, 255, 255, .2);
 }
 
 .card-inverse .card-blockquote,
@@ -129,11 +130,11 @@
 }
 
 .card-img-top {
-  border-radius: .25rem .25rem 0 0;
+  border-radius: .1875rem .1875rem 0 0;
 }
 
 .card-img-bottom {
-  border-radius: 0 0 .25rem .25rem;
+  border-radius: 0 0 .1875rem .1875rem;
 }
 
 @media (min-width: 544px) {
@@ -170,12 +171,22 @@
     border-left: 0;
   }
 
+  .card-group .card:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+
   .card-group .card:first-child .card-img-top {
     border-top-right-radius: 0;
   }
 
   .card-group .card:first-child .card-img-bottom {
     border-bottom-right-radius: 0;
+  }
+
+  .card-group .card:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
   }
 
   .card-group .card:last-child .card-img-top {

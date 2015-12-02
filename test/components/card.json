@@ -70,6 +70,20 @@
               "file": "card.css"
             }
           },
+          "prop": "display",
+          "value": "block"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "card.css"
+            }
+          },
           "prop": "background-color",
           "value": "#fff"
         },
@@ -741,7 +755,7 @@
             }
           },
           "prop": "border-bottom",
-          "value": ".075rem solid rgba(255, 255, 255, .2)"
+          "value": ".0625rem solid rgba(255, 255, 255, .2)"
         }
       ],
       "source": {
@@ -1056,7 +1070,7 @@
             }
           },
           "prop": "border-radius",
-          "value": ".25rem .25rem 0 0"
+          "value": ".1875rem .1875rem 0 0"
         }
       ],
       "source": {
@@ -1087,7 +1101,7 @@
             }
           },
           "prop": "border-radius",
-          "value": "0 0 .25rem .25rem"
+          "value": "0 0 .1875rem .1875rem"
         }
       ],
       "source": {
@@ -1446,6 +1460,51 @@
                   "file": "card.css"
                 }
               },
+              "prop": "border-bottom-right-radius",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "card.css"
+                }
+              },
+              "prop": "border-top-right-radius",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "card.css"
+            }
+          },
+          "selector": ".card-group .card:first-child"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "card.css"
+                }
+              },
               "prop": "border-top-right-radius",
               "value": "0"
             }
@@ -1487,6 +1546,51 @@
             }
           },
           "selector": ".card-group .card:first-child .card-img-bottom"
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": " ",
+            "semicolon": true,
+            "after": "\n  "
+          },
+          "type": "rule",
+          "nodes": [
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "card.css"
+                }
+              },
+              "prop": "border-bottom-left-radius",
+              "value": "0"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "card.css"
+                }
+              },
+              "prop": "border-top-left-radius",
+              "value": "0"
+            }
+          ],
+          "source": {
+            "input": {
+              "file": "card.css"
+            }
+          },
+          "selector": ".card-group .card:last-child"
         },
         {
           "raws": {

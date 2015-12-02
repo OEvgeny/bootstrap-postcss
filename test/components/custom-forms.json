@@ -1234,7 +1234,7 @@
             }
           },
           "prop": "font-size",
-          "value": "9pt"
+          "value": "12px"
         }
       ],
       "source": {
@@ -1641,7 +1641,7 @@
             }
           },
           "prop": "border",
-          "value": ".075rem solid #ddd"
+          "value": "1px solid #ddd"
         },
         {
           "raws": {
@@ -1815,7 +1815,7 @@
             }
           },
           "prop": "border",
-          "value": ".075rem solid #ddd"
+          "value": "1px solid #ddd"
         },
         {
           "raws": {

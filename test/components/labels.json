@@ -346,7 +346,7 @@
             }
           },
           "prop": "border-radius",
-          "value": "1rem"
+          "value": "10rem"
         }
       ],
       "source": {

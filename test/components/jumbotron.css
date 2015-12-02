@@ -5,14 +5,14 @@
   border-radius: .3rem;
 }
 
-.jumbotron-hr {
-  border-top-color: #d0d5d8;
-}
-
 @media (min-width: 544px) {
   .jumbotron {
     padding: 4rem 2rem;
   }
+}
+
+.jumbotron-hr {
+  border-top-color: #d0d5d8;
 }
 
 .jumbotron-fluid {

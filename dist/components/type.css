@@ -10,11 +10,16 @@ h3,
 h4,
 h5,
 h6 {
+  margin-bottom: .5rem;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
-  margin-bottom: .5rem;
+}
+
+.blockquote,
+hr {
+  margin-bottom: 1rem;
 }
 
 .display-1,
@@ -23,11 +28,6 @@ h6 {
 .display-4,
 .lead {
   font-weight: 300;
-}
-
-.blockquote,
-hr {
-  margin-bottom: 1rem;
 }
 
 .h1,
@@ -182,18 +182,4 @@ mark {
 
 .blockquote-reverse footer::after {
   content: "\00A0 \2014";
-}
-
-.figure {
-  display: inline-block;
-}
-
-.figure > img {
-  margin-bottom: .5rem;
-  line-height: 1;
-}
-
-.figure-caption {
-  font-size: 90%;
-  color: #818a91;
 }

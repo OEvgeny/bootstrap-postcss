@@ -289,7 +289,7 @@
 
 @media (min-width: 544px) {
   .container {
-    max-width: 6in;
+    max-width: 576px;
   }
 
   .col-sm-1 {
@@ -499,7 +499,7 @@
 
 @media (min-width: 768px) {
   .container {
-    max-width: 45pc;
+    max-width: 720px;
   }
 
   .col-md-1 {
@@ -919,7 +919,7 @@
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 855pt;
+    max-width: 1140px;
   }
 
   .col-xl-1 {

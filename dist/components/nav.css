@@ -1,11 +1,18 @@
+.nav-inline .nav-item,
+.nav-link {
+  display: inline-block;
+}
+
+.nav-pills::after,
+.nav-tabs::after {
+  content: "";
+  clear: both;
+}
+
 .nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
-
-.nav-link {
-  display: inline-block;
 }
 
 .nav-link:focus,
@@ -25,6 +32,7 @@
   background-color: transparent;
 }
 
+.nav-inline .nav-item + .nav-item,
 .nav-inline .nav-link + .nav-link {
   margin-left: 1rem;
 }
@@ -39,9 +47,7 @@
 }
 
 .nav-tabs::after {
-  content: "";
   display: table;
-  clear: both;
 }
 
 .nav-tabs .nav-item {
@@ -78,6 +84,10 @@
   color: #55595c;
   background-color: #fff;
   border-color: #ddd #ddd transparent;
+}
+
+.nav-pills::after {
+  display: table;
 }
 
 .nav-pills .nav-item {

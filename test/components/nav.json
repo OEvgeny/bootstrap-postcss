@@ -25,6 +25,82 @@
               "file": "nav.css"
             }
           },
+          "prop": "display",
+          "value": "inline-block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "nav.css"
+        }
+      },
+      "selector": ".nav-inline .nav-item,\n.nav-link"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "nav.css"
+            }
+          },
+          "prop": "content",
+          "value": "\"\""
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "nav.css"
+            }
+          },
+          "prop": "clear",
+          "value": "both"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "nav.css"
+        }
+      },
+      "selector": ".nav-pills::after,\n.nav-tabs::after"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "nav.css"
+            }
+          },
           "prop": "padding-left",
           "value": "0"
         },
@@ -63,37 +139,6 @@
         }
       },
       "selector": ".nav"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "nav.css"
-            }
-          },
-          "prop": "display",
-          "value": "inline-block"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "nav.css"
-        }
-      },
-      "selector": ".nav-link"
     },
     {
       "raws": {
@@ -245,7 +290,7 @@
           "file": "nav.css"
         }
       },
-      "selector": ".nav-inline .nav-link + .nav-link"
+      "selector": ".nav-inline .nav-item + .nav-item,\n.nav-inline .nav-link + .nav-link"
     },
     {
       "raws": {
@@ -329,36 +374,8 @@
               "file": "nav.css"
             }
           },
-          "prop": "content",
-          "value": "\"\""
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "nav.css"
-            }
-          },
           "prop": "display",
           "value": "table"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "nav.css"
-            }
-          },
-          "prop": "clear",
-          "value": "both"
         }
       ],
       "source": {
@@ -634,6 +651,37 @@
         }
       },
       "selector": ".nav-tabs .nav-item.open .nav-link,\n.nav-tabs .nav-item.open .nav-link:focus,\n.nav-tabs .nav-item.open .nav-link:hover,\n.nav-tabs .nav-link.active,\n.nav-tabs .nav-link.active:focus,\n.nav-tabs .nav-link.active:hover"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "nav.css"
+            }
+          },
+          "prop": "display",
+          "value": "table"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "nav.css"
+        }
+      },
+      "selector": ".nav-pills::after"
     },
     {
       "raws": {

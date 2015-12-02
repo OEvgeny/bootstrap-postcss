@@ -30,7 +30,7 @@ a.label:hover {
 .label-pill {
   padding-right: .6em;
   padding-left: .6em;
-  border-radius: 1rem;
+  border-radius: 10rem;
 }
 
 .label-default {

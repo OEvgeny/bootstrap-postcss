@@ -70,37 +70,6 @@
               "file": "code.css"
             }
           },
-          "prop": "font-size",
-          "value": "90%"
-        }
-      ],
-      "source": {
-        "input": {
-          "file": "code.css"
-        }
-      },
-      "selector": "code,\nkbd,\npre"
-    },
-    {
-      "raws": {
-        "before": "\n\n",
-        "between": " ",
-        "semicolon": true,
-        "after": "\n"
-      },
-      "type": "rule",
-      "nodes": [
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "code.css"
-            }
-          },
           "prop": "font-family",
           "value": "Menlo, Monaco, Consolas, \"Courier New\", monospace"
         }
@@ -339,6 +308,20 @@
           },
           "prop": "margin-bottom",
           "value": "1rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "code.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "90%"
         },
         {
           "raws": {

@@ -178,7 +178,7 @@
             }
           },
           "prop": "font-size",
-          "value": "1pc"
+          "value": "16px"
         },
         {
           "raws": {
@@ -921,6 +921,51 @@
               "file": "reboot.css"
             }
           },
+          "prop": "-ms-touch-action",
+          "value": "manipulation"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "touch-action",
+          "value": "manipulation"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "[role=button],\na,\narea,\nbutton,\ninput,\nlabel,\nselect,\nsummary,\ntextarea"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
           "prop": "background-color",
           "value": "transparent"
         }
@@ -1299,6 +1344,38 @@
         }
       },
       "selector": "input[type=search]"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "reboot.css"
+            }
+          },
+          "prop": "display",
+          "important": true,
+          "value": "none"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "reboot.css"
+        }
+      },
+      "selector": "[hidden]"
     }
   ],
   "source": {

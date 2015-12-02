@@ -310,7 +310,7 @@
                 }
               },
               "prop": "-o-transition",
-              "value": "-o-transform .6s ease-in-out"
+              "value": "transform .6s ease-in-out, -o-transform .6s ease-in-out"
             },
             {
               "raws": {
@@ -325,6 +325,20 @@
               },
               "prop": "transition",
               "value": "transform .6s ease-in-out"
+            },
+            {
+              "raws": {
+                "before": "\n    ",
+                "between": ": "
+              },
+              "type": "decl",
+              "source": {
+                "input": {
+                  "file": "carousel.css"
+                }
+              },
+              "prop": "transition",
+              "value": "transform .6s ease-in-out, -webkit-transform .6s ease-in-out, -o-transform .6s ease-in-out"
             },
             {
               "raws": {
@@ -366,7 +380,7 @@
                 }
               },
               "prop": "-webkit-perspective",
-              "value": "750pt"
+              "value": "1000px"
             },
             {
               "raws": {
@@ -380,7 +394,7 @@
                 }
               },
               "prop": "perspective",
-              "value": "750pt"
+              "value": "1000px"
             }
           ],
           "source": {
@@ -1865,7 +1879,7 @@
             }
           },
           "prop": "width",
-          "value": "9pt"
+          "value": "12px"
         },
         {
           "raws": {
@@ -1879,7 +1893,7 @@
             }
           },
           "prop": "height",
-          "value": "9pt"
+          "value": "12px"
         },
         {
           "raws": {

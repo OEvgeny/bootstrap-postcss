@@ -92,8 +92,8 @@
 
 .btn-group-lg.btn-group > .btn + .dropdown-toggle,
 .btn-group > .btn-lg + .dropdown-toggle {
-  padding-right: 9pt;
-  padding-left: 9pt;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 .btn-group-lg > .btn .caret,

@@ -101,6 +101,37 @@
               "file": "images.css"
             }
           },
+          "prop": "display",
+          "value": "inline-block"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".figure,\n.img-thumbnail"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
           "prop": "border-radius",
           "value": ".3rem"
         }
@@ -232,20 +263,6 @@
           },
           "prop": "transition",
           "value": "all .2s ease-in-out"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "images.css"
-            }
-          },
-          "prop": "display",
-          "value": "inline-block"
         }
       ],
       "source": {
@@ -285,6 +302,96 @@
         }
       },
       "selector": ".img-circle"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "margin-bottom",
+          "value": ".5rem"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "line-height",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".figure-img"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "font-size",
+          "value": "90%"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "images.css"
+            }
+          },
+          "prop": "color",
+          "value": "#818a91"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "images.css"
+        }
+      },
+      "selector": ".figure-caption"
     }
   ],
   "source": {

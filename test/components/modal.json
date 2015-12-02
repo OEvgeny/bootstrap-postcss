@@ -290,7 +290,7 @@
             }
           },
           "prop": "-o-transition",
-          "value": "-o-transform .3s ease-out"
+          "value": "transform .3s ease-out, -o-transform .3s ease-out"
         },
         {
           "raws": {
@@ -305,6 +305,20 @@
           },
           "prop": "transition",
           "value": "transform .3s ease-out"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "modal.css"
+            }
+          },
+          "prop": "transition",
+          "value": "transform .3s ease-out, -webkit-transform .3s ease-out, -o-transform .3s ease-out"
         },
         {
           "raws": {

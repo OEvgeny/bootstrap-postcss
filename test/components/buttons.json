@@ -143,34 +143,6 @@
               "file": "buttons.css"
             }
           },
-          "prop": "-ms-touch-action",
-          "value": "manipulation"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "buttons.css"
-            }
-          },
-          "prop": "touch-action",
-          "value": "manipulation"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": "
-          },
-          "type": "decl",
-          "source": {
-            "input": {
-              "file": "buttons.css"
-            }
-          },
           "prop": "cursor",
           "value": "pointer"
         },
@@ -3586,7 +3558,7 @@
             }
           },
           "prop": "font-size",
-          "value": ".85rem"
+          "value": ".875rem"
         },
         {
           "raws": {

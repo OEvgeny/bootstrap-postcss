@@ -299,6 +299,37 @@
         }
       },
       "selector": ".embed-responsive-4by3"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "input": {
+              "file": "responsive-embed.css"
+            }
+          },
+          "prop": "padding-bottom",
+          "value": "100%"
+        }
+      ],
+      "source": {
+        "input": {
+          "file": "responsive-embed.css"
+        }
+      },
+      "selector": ".embed-responsive-1by1"
     }
   ],
   "source": {
