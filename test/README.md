@@ -1,5 +1,5 @@
 
-> bootstrap-postcss@0.0.1 test /app
+> bootstrap-postcss@0.0.1 test /home/oevgeny/work/bs4-postcss
 > mocha "./test/components.js" "./node_modules/mocha/lib/reporters/markdown.js"
 
 
@@ -11,15 +11,15 @@
     2) component: button-group
     ✓ component: buttons
     ✓ component: card
-    ✓ component: carousel (46ms)
+    3) component: carousel
     ✓ component: close
     ✓ component: code
     ✓ component: custom-forms
     ✓ component: dropdown
-    3) component: forms
-    4) component: grid
+    4) component: forms
+    5) component: grid
     ✓ component: images
-    5) component: input-group
+    6) component: input-group
     ✓ component: jumbotron
     ✓ component: labels
     ✓ component: list-group
@@ -30,7 +30,7 @@
     ✓ component: normalize
     ✓ component: pager
     ✓ component: pagination
-    6) component: popover
+    7) component: popover
     ✓ component: print
     ✓ component: progress
     ✓ component: reboot
@@ -43,8 +43,8 @@
     ✓ component: utilities
 
 
-  30 passing (559ms)
-  6 failing
+  29 passing (479ms)
+  7 failing
 
   1) Bootstrap v4 PostCSS component: alert:
 
@@ -130,7 +130,24 @@
       
       at Context.<anonymous> (test/components.js:23:30)
 
-  3) Bootstrap v4 PostCSS component: forms:
+  3) Bootstrap v4 PostCSS component: carousel:
+
+      + expected - actual
+
+                     "file": "carousel.css"
+                   }
+                 },
+                 "prop": "background-color",
+      -          "value": "rgba(0, 0, 0, 0)"
+      +          "value": "transparent"
+               },
+               {
+                 "raws": {
+                   "before": "\n  ",
+      
+      at Context.<anonymous> (test/components.js:23:30)
+
+  4) Bootstrap v4 PostCSS component: forms:
 
       + expected - actual
 
@@ -147,13 +164,13 @@
       
       at Context.<anonymous> (test/components.js:23:30)
 
-  4) Bootstrap v4 PostCSS component: grid:
+  5) Bootstrap v4 PostCSS component: grid:
 
       + expected - actual
 
                    }
                  },
-                 "prop": "margin-left",
+                 "prop": "margin-right",
                  "value": "auto"
       +        }
       +      ],
@@ -501,7 +518,7 @@
       
       at Context.<anonymous> (test/components.js:23:30)
 
-  5) Bootstrap v4 PostCSS component: input-group:
+  6) Bootstrap v4 PostCSS component: input-group:
 
       + expected - actual
 
@@ -528,7 +545,7 @@
       
       at Context.<anonymous> (test/components.js:23:30)
 
-  6) Bootstrap v4 PostCSS component: popover:
+  7) Bootstrap v4 PostCSS component: popover:
 
       + expected - actual
 
